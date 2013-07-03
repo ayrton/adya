@@ -81,21 +81,28 @@
       <table class="container">
         <thead>
           <tr>
-            <td>DATE</td>
-            <td>CITY</td>
-            <td>LOCATION</td>
+            <td class="date">DATE</td>
+            <td class="city">CITY</td>
+            <td class="location">LOCATION</td>
+            <td class="time">TIME</td>
+            <td class="call-to-action"></td>
           </tr>
         </thead>
 
         <tbody>
         {{#each tour in model}}
         <tr>
-          <td>
+          <td class="date">
             <span>{{month tour.date}}</span>
             <strong>{{day tour.date}}</strong>
           </td>
-          <td>{{tour.city}}</td>
-          <td>{{tour.location}}</td>
+          <td class="city">{{tour.city}}</td>
+          <td class="location">{{tour.location}}</td>
+          <td class="time">{{time tour.date}}</td>
+          <td class="call-to-action">
+          {{#if tour.tickets}}
+            <a {{bindAttr href="tour.tickets"}} target="_blank">BUY TICKETS</a></td>
+          {{/if}}
         </tr>
         {{/each}}
         </tbody>

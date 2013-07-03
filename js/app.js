@@ -28,9 +28,6 @@ App.IndexRoute = Ember.Route.extend({
   }
 });
 
-App.HeroController = Ember.ObjectController.extend();
-App.ToursController = Ember.ArrayController.extend();
-
 App.DiscographyRoute = Ember.Route.extend({
   model: function() {
     return App.Album.find();
@@ -74,6 +71,10 @@ App.ApplicationController = Ember.Controller.extend({
     this.send('showModal', 'contact');
   }
 });
+
+App.HeroController = Ember.ObjectController.extend();
+
+App.ToursController = Ember.ArrayController.extend();
 
 App.DiscographyController = Ember.ArrayController.extend({
   sortedAlbums: function() {
@@ -154,6 +155,16 @@ Ember.Handlebars.registerBoundHelper('day', function(value) {
   return moment(value).format('DD');
 });
 
+Ember.Handlebars.registerBoundHelper('time', function(value) {
+  var value = moment(value).format('HH:mm');
+
+  if (value === '00:00') {
+    return '--'
+  } else {
+    return value;
+  }
+});
+
 App.Store = DS.Store.extend({
   adapter: DS.FixtureAdapter.create({ latency: 0 })
 });
@@ -173,7 +184,8 @@ App.Track = DS.Model.extend({
 App.Tour = DS.Model.extend({
   date: DS.attr('string'),
   city: DS.attr('string'),
-  location: DS.attr('string')
+  location: DS.attr('string'),
+  tickets: DS.attr('string')
 });
 
 App.Video = DS.Model.extend({
@@ -724,69 +736,80 @@ App.Track.FIXTURES = [
 App.Tour.FIXTURES = [
   {
     id: 1,
-    date: new Date(2013, 10, 25),
+    date: new Date(2013, 9, 25, 20, 0, 0),
     city: 'Saarbrücken, Germany',
-    location: 'Saarlandhalle'
+    location: 'Saarlandhalle',
+    tickets: 'http://www.tickethall.de/kuenstler/adya/adya-classic/adya-classic-25-10-2013-saarbruecken'
   },
   {
     id: 2,
-    date: new Date(2013, 10, 26),
+    date: new Date(2013, 9, 26, 20, 0, 0),
     city: 'München, Germany',
-    location: 'Philharmonie'
+    location: 'Philharmonie',
+    tickets: 'http://www.tickethall.de/kuenstler/adya/adya-classic/adya-classic-26-10-2013-muenchen'
   },
   {
     id: 3,
-    date: new Date(2013, 10, 27),
+    date: new Date(2013, 9, 27, 20, 0, 0),
     city: 'Nürnberg, Germany',
-    location: 'Meistersingerhalle'
+    location: 'Meistersingerhalle',
+    tickets: 'http://www.tickethall.de/kuenstler/adya/adya-classic/adya-classic-27-10-2013-nuernberg'
   },
   {
     id: 4,
-    date: new Date(2013, 10, 28),
+    date: new Date(2013, 9, 28),
     city: 'Zürich, Switzerland',
     location: 'Kongresshalle'
   },
   {
     id: 5,
-    date: new Date(2013, 10, 29),
+    date: new Date(2013, 9, 29, 20, 0, 0),
     city: 'Stuttgart, Germany',
-    location: 'Beethovensaal'
+    location: 'Beethovensaal',
+    tickets: 'http://www.tickethall.de/kuenstler/adya/adya-classic/adya-classic-29-10-2013-stuttgart'
   },
   {
     id: 6,
-    date: new Date(2013, 10, 30),
+    date: new Date(2013, 9, 30, 20, 0, 0),
     city: 'Frankfurt, Germany',
-    location: 'Jahrhunderthalle'
+    location: 'Jahrhunderthalle',
+    tickets: 'http://www.tickethall.de/kuenstler/adya/adya-classic/adya-classic-30-10-2013-frankfurt'
+
   },
   {
     id: 7,
-    date: new Date(2013, 10, 31),
+    date: new Date(2013, 9, 31, 20, 0, 0),
     city: 'Fulda, Germany',
-    location: 'Esperantohalle'
+    location: 'Esperantohalle',
+    tickets: 'http://www.tickethall.de/kuenstler/adya/adya-classic/adya-classic-31-10-2013-fulda'
   },
   {
     id: 8,
-    date: new Date(2013, 11, 1),
+    date: new Date(2013, 10, 1, 20, 0, 0),
     city: 'Düsseldorf, Germany',
-    location: 'Mitsubishi Halle'
+    location: 'Mitsubishi Halle',
+    tickets: 'http://www.tickethall.de/kuenstler/adya/adya-classic/adya-classic-01-11-2013-duesseldorf'
   },
   {
     id: 9,
-    date: new Date(2013, 11, 2),
+    date: new Date(2013, 10, 2, 20, 0, 0),
     city: 'Bielefeld, Germany',
-    location: 'Stadthalle'
+    location: 'Stadthalle',
+    tickets: 'http://www.tickethall.de/kuenstler/adya/adya-classic/adya-classic-02-11-2013-bielefeld'
   },
   {
     id: 10,
-    date: new Date(2013, 11, 3),
+    date: new Date(2013, 10, 3, 20, 0, 0),
     city: 'Berlin, Germany',
-    location: 'Admiralspalast'
+    location: 'Admiralspalast',
+    tickets: 'http://www.tickethall.de/kuenstler/adya/adya-classic/adya-classic-03-11-2013-berlin'
   },
   {
     id: 11,
-    date: new Date(2013, 11, 4),
+    date: new Date(2013, 10, 4, 20, 0, 0),
     city: 'Hamburg, Germany',
-    location: 'CCH 1'
+    location: 'CCH 1',
+    tickets: 'http://www.tickethall.de/kuenstler/adya/adya-classic/adya-classic-04-11-2013-hamburg'
   },
 ];
 

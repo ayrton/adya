@@ -100,6 +100,8 @@ footer p {
   background: url(../images/hero.jpg);
   border-radius: 5px;
   height: 477px;
+  position: relative;
+  z-index: 1;
 }
 
 #hero h1 {
@@ -141,9 +143,15 @@ footer p {
 }
 
 #adya {
+  background: rgba(255, 255, 255, .71);
   border-bottom: 1px solid #eceae8;
+  border-top: 1px solid #eceae8;
   margin-bottom: 72px;
+  margin-top: -90px;
+  padding-top: 89px;
+  position: relative;
   overflow: hidden;
+  z-index: 0;
 }
 
 #adya .container {
@@ -199,17 +207,30 @@ footer p {
   margin: 0 auto 108px auto;
 }
 
-#tours table tr {
-  padding: 0 25px;
-}
-
 #tours thead {
   font-size: 12px;
   line-height: 45px;
 }
 
-#tours thead td:first-child {
-  padding-left: 25px;
+#tours td.date {
+  padding-left: 24px;
+  width: 88px;
+}
+
+#tours td.city {
+  width: 210px;
+}
+
+#tours td.location {
+  width: 164px;
+}
+
+#tours td.time {
+  width: 298px;
+}
+
+#tours td.call-to-action {
+  padding-right: 24px;
 }
 
 #tours tbody tr {
@@ -218,20 +239,21 @@ footer p {
   height: 62px;
 }
 
-#tours tbody tr td:first-child {
-  line-height: auto;
-}
-
-#tours tbody tr td:first-child span {
+#tours tbody tr td.date span {
   font-size: 11px;
   text-transform: uppercase;
 }
 
-#tours tbody tr td:first-child strong {
+#tours tbody tr td.date strong {
   color: #232322;
   font-size: 20px;
   font-weight: 300;
   display: block;
+}
+
+#tours a {
+  display: inline-block;
+  text-decoration: none;
 }
 
 #discography h1 {
@@ -529,6 +551,19 @@ ol#photos a:active .zoom {
   resize: vertical;
 }
 
+#contact p {
+  color: #7c7870;
+  font-size: 16px;
+  line-height: 28px;
+  margin: 0;
+}
+
+#contact a {
+  color: #6d1b21;
+}
+
+.button,
+#tours a,
 #contact button {
   background: #fff;
   border: 2px solid #e1e1e0;
@@ -543,24 +578,17 @@ ol#photos a:active .zoom {
   text-transform: uppercase;
 }
 
+.button:hover,
+#tours a:hover,
 #contact button:hover {
   background: #fbfbfa;
   color: #232322;
 }
 
+.button:active,
+#tours a:active,
 #contact button:active {
   margin-top: 1px;
-}
-
-#contact p {
-  color: #7c7870;
-  font-size: 16px;
-  line-height: 28px;
-  margin: 0;
-}
-
-#contact a {
-  color: #6d1b21;
 }
 
 .mfp-bg {
