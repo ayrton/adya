@@ -46,6 +46,7 @@
     {{render "hero"}}
     {{partial "adya"}}
     {{render "tours"}}
+    {{render "photoAlbum"}}
   </script>
 
   <script type="text/x-handlebars" data-template-name="hero">
@@ -107,6 +108,22 @@
         {{/each}}
         </tbody>
       </table>
+
+      <hr />
+    </section>
+  </script>
+
+  <script type="text/x-handlebars" data-template-name="photoAlbum">
+    <section id="photo-album" class="container">
+      <h1>Photo Album</h1>
+
+      <ol>
+      {{#each photo in filteredModel}}
+        <li>
+          {{view App.PopupView hrefBinding="photo.src" thumbnailBinding="photo.thumbnail" titleBinding="photo.title" popupType="image" icon="zoom"}}
+        </li>
+      {{/each}}
+      </ol>
     </section>
   </script>
 
@@ -165,18 +182,18 @@
         </p>
       </li>
     {{/each}}
-  </ol>
+    </ol>
   </script>
 
   <script type="text/x-handlebars" data-template-name="downloads/photos">
     <ol id="photos">
-    {{#each photo in model}}
+    {{#each photo in filteredModel}}
       <li>
         {{view App.PopupView hrefBinding="photo.src" thumbnailBinding="photo.thumbnail" titleBinding="photo.album.title" popupType="image" icon="zoom"}}
         <p><em>{{photo.album.title}}</em></p>
       </li>
     {{/each}}
-  </ol>
+    </ol>
   </script>
 
   <script type="text/x-handlebars" data-template-name="popup">

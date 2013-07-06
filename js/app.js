@@ -23,8 +23,22 @@ App.ApplicationRoute = Ember.Route.extend({
 App.IndexRoute = Ember.Route.extend({
   setupController: function(controller, model) {
     this._super(controller, model);
-    this.controllerFor('hero').set('model', App.Album.find(5));
+    this.setupHeroController();
+    this.setupToursController();
+    this.setupPhotoAlbumController();
+  },
+
+  setupHeroController: function() {
+    var classic_three = App.Album.find(5);
+    this.controllerFor('hero').set('model', classic_three);
+  },
+
+  setupToursController: function() {
     this.controllerFor('tours').set('model', App.Tour.find());
+  },
+
+  setupPhotoAlbumController: function() {
+    this.controllerFor('photoAlbum').set('model', App.Photo.find());
   }
 });
 
@@ -76,6 +90,16 @@ App.HeroController = Ember.ObjectController.extend();
 
 App.ToursController = Ember.ArrayController.extend();
 
+App.PhotoAlbumController = Ember.ArrayController.extend({
+  // FixtureAdapter does not support querying ;(
+  filteredModel: function() {
+    return this.get('model').filter(function(photo) {
+      return !photo.get('album');
+    });
+
+  }.property('model.@each.album')
+});
+
 App.DiscographyController = Ember.ArrayController.extend({
   sortedAlbums: function() {
     return Ember.ArrayProxy.createWithMixins(Ember.SortableMixin, {
@@ -97,6 +121,16 @@ App.AlbumController = Ember.ObjectController.extend({
 
     return [ tracks.slice(0, divider), tracks.slice(divider, divider * 2), tracks.slice(divider * 2, divider * 3) ];
   }.property()
+});
+
+App.DownloadsPhotosController = Ember.ArrayController.extend({
+  // FixtureAdapter does not support querying ;(
+  filteredModel: function() {
+    return this.get('model').filter(function(photo) {
+      return !!photo.get('album');
+    });
+
+  }.property('model.@each.album')
 });
 
 App.ContactController = Ember.ObjectController.extend({
@@ -883,7 +917,68 @@ App.Video.FIXTURES = [
 App.Photo.FIXTURES = [
   {
     id: 1,
+    thumbnail: 'photos/1-thumb.jpg',
+    src: 'photos/1.jpg',
+  },
+  {
+    id: 2,
+    thumbnail: 'photos/1-thumb.jpg',
+    src: 'photos/1.jpg',
+  },
+  {
+    id: 3,
+    thumbnail: 'photos/1-thumb.jpg',
+    src: 'photos/1.jpg',
+  },
+  {
+    id: 4,
+    thumbnail: 'photos/1-thumb.jpg',
+    src: 'photos/1.jpg',
+  },
+  {
+    id: 5,
+    thumbnail: 'photos/1-thumb.jpg',
+    src: 'photos/1.jpg',
+  },
+  {
+    id: 6,
+    thumbnail: 'photos/1-thumb.jpg',
+    src: 'photos/1.jpg',
+  },
+  {
+    id: 11,
     thumbnail: 'images/photo-classic-2.jpg',
+    src: 'photos/1.jpg',
+    album: 2
+  },
+  {
+    id: 12,
+    thumbnail: 'images/photo-classic-2.jpg',
+    src: 'photos/1.jpg',
+    album: 2
+  },
+  {
+    id: 13,
+    thumbnail: 'images/photo-classic-2.jpg',
+    src: 'photos/1.jpg',
+    album: 2
+  },
+  {
+    id: 14,
+    thumbnail: 'images/photo-classic-2.jpg',
+    src: 'photos/1.jpg',
+    album: 2
+  },
+  {
+    id: 15,
+    thumbnail: 'images/photo-classic-2.jpg',
+    src: 'photos/1.jpg',
+    album: 2
+  },
+  {
+    id: 16,
+    thumbnail: 'images/photo-classic-2.jpg',
+    src: 'photos/1.jpg',
     album: 2
   }
 ];
