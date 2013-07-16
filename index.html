@@ -76,6 +76,7 @@
   </script>
 
   <script type="text/x-handlebars" data-template-name="tours">
+    {{#if model}}
     <section id="tours">
       <h1>Tour Dates: <strong>2013</strong></h1>
 
@@ -92,25 +93,26 @@
 
         <tbody>
         {{#each tour in model}}
-        <tr>
-          <td class="date">
-            <span>{{month tour.date}}</span>
-            <strong>{{day tour.date}}</strong>
-          </td>
-          <td class="city">{{tour.city}}</td>
-          <td class="location">{{tour.location}}</td>
-          <td class="time">{{time tour.date}}</td>
-          <td class="call-to-action">
-          {{#if tour.tickets}}
-            <a {{bindAttr href="tour.tickets"}} target="_blank">BUY TICKETS</a></td>
-          {{/if}}
-        </tr>
+          <tr>
+            <td class="date">
+              <span>{{month tour.date}}</span>
+              <strong>{{day tour.date}}</strong>
+            </td>
+            <td class="city">{{tour.city}}</td>
+            <td class="location">{{tour.location}}</td>
+            <td class="time">{{time tour.date}}</td>
+            <td class="call-to-action">
+            {{#if tour.tickets}}
+              <a {{bindAttr href="tour.tickets"}} target="_blank">BUY TICKETS</a></td>
+            {{/if}}
+          </tr>
         {{/each}}
         </tbody>
       </table>
 
       <hr />
     </section>
+    {{/if}}
   </script>
 
   <script type="text/x-handlebars" data-template-name="photoAlbum">
@@ -178,7 +180,9 @@
         {{#if video.title}}
           <span>{{video.title}}</span>
         {{/if}}
+        {{#if video.album.title}}
           <em>{{video.album.title}}</em>
+        {{/if}}
         </p>
       </li>
     {{/each}}
@@ -215,7 +219,7 @@
             {{view Ember.TextField placeholder="Name" valueBinding="model.name"}}
             {{view Ember.TextField placeholder="Email" valueBinding="model.email"}}
             {{view Ember.TextField placeholder="Music Inquiry" valueBinding="model.subject"}}
-            {{view Ember.TextArea placeholder="Enter message..." valueBinding="model.content"}}
+            {{view Ember.TextArea placeholder="Enter message..." valueBinding="model.body"}}
             <button {{action "sendMessage"}}>send message</button>
           </form>
         {{else}}

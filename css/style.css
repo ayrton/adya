@@ -190,7 +190,7 @@ footer p {
 #tours h1 {
   color: #232322;
   font-size: 28px;
-  margin: 0 0 21px 0;
+  margin: 0 0 34px 0;
   text-align: center;
 }
 
@@ -285,6 +285,26 @@ footer p {
   padding: 0 2px 12px 2px;
   width: 220px;
 }
+
+#photo-album a {
+  display: block;
+  position: relative;
+}
+
+#photo-album a .zoom {
+  background: url(../images/zoom-transparent.png);
+  display: none;
+  height: 155px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 220px;
+}
+
+#photo-album a:hover .zoom {
+  display: block;
+}
+
 #discography h1 {
   color: #232322;
   font-size: 28px;

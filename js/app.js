@@ -240,20 +240,27 @@ App.Message = Ember.Object.extend({
     return 'fad8482c-0c4b-400d-97dc-6e6da2dfae00';
   }.property(),
 
+  formattedSubject: function() {
+    return '[ADYA.EU] ' + (this.get('subject') ? this.get('subject') : 'Music Inquiry');
+  }.property('subject'),
+
+  formattedBody: function() {
+    return this.get('body') + "\n\n--\nSent from http://adya.eu";
+  }.property('body'),
 
   options: function() {
     return {
       'key': this.get('apiKey'),
       'message': {
-        'subject': this.get('subject'),
-        'text': this.get('body'),
+        'subject': this.get('formattedSubject'),
+        'text': this.get('formattedBody'),
         'from_email': this.get('email'),
         'from_name': this.get('name'),
         'to': [
           {
-          'email': 'ayrton.decraene@gmail.com', //mousemusic@yucom.be
-          'name': 'Ayrton De Craene' //Mouse Music
-        }
+            'email': 'mousemusic@yucom.be',
+            'name': 'Mouse Music'
+          }
         ],
         'headers': {
           'Reply-To': this.get('email')
@@ -767,150 +774,60 @@ App.Track.FIXTURES = [
   }
 ];
 
-App.Tour.FIXTURES = [
-  {
-    id: 1,
-    date: new Date(2013, 9, 25, 20, 0, 0),
-    city: 'Saarbrücken, Germany',
-    location: 'Saarlandhalle',
-    tickets: 'http://www.tickethall.de/kuenstler/adya/adya-classic/adya-classic-25-10-2013-saarbruecken'
-  },
-  {
-    id: 2,
-    date: new Date(2013, 9, 26, 20, 0, 0),
-    city: 'München, Germany',
-    location: 'Philharmonie',
-    tickets: 'http://www.tickethall.de/kuenstler/adya/adya-classic/adya-classic-26-10-2013-muenchen'
-  },
-  {
-    id: 3,
-    date: new Date(2013, 9, 27, 20, 0, 0),
-    city: 'Nürnberg, Germany',
-    location: 'Meistersingerhalle',
-    tickets: 'http://www.tickethall.de/kuenstler/adya/adya-classic/adya-classic-27-10-2013-nuernberg'
-  },
-  {
-    id: 4,
-    date: new Date(2013, 9, 28),
-    city: 'Zürich, Switzerland',
-    location: 'Kongresshalle'
-  },
-  {
-    id: 5,
-    date: new Date(2013, 9, 29, 20, 0, 0),
-    city: 'Stuttgart, Germany',
-    location: 'Beethovensaal',
-    tickets: 'http://www.tickethall.de/kuenstler/adya/adya-classic/adya-classic-29-10-2013-stuttgart'
-  },
-  {
-    id: 6,
-    date: new Date(2013, 9, 30, 20, 0, 0),
-    city: 'Frankfurt, Germany',
-    location: 'Jahrhunderthalle',
-    tickets: 'http://www.tickethall.de/kuenstler/adya/adya-classic/adya-classic-30-10-2013-frankfurt'
-
-  },
-  {
-    id: 7,
-    date: new Date(2013, 9, 31, 20, 0, 0),
-    city: 'Fulda, Germany',
-    location: 'Esperantohalle',
-    tickets: 'http://www.tickethall.de/kuenstler/adya/adya-classic/adya-classic-31-10-2013-fulda'
-  },
-  {
-    id: 8,
-    date: new Date(2013, 10, 1, 20, 0, 0),
-    city: 'Düsseldorf, Germany',
-    location: 'Mitsubishi Halle',
-    tickets: 'http://www.tickethall.de/kuenstler/adya/adya-classic/adya-classic-01-11-2013-duesseldorf'
-  },
-  {
-    id: 9,
-    date: new Date(2013, 10, 2, 20, 0, 0),
-    city: 'Bielefeld, Germany',
-    location: 'Stadthalle',
-    tickets: 'http://www.tickethall.de/kuenstler/adya/adya-classic/adya-classic-02-11-2013-bielefeld'
-  },
-  {
-    id: 10,
-    date: new Date(2013, 10, 3, 20, 0, 0),
-    city: 'Berlin, Germany',
-    location: 'Admiralspalast',
-    tickets: 'http://www.tickethall.de/kuenstler/adya/adya-classic/adya-classic-03-11-2013-berlin'
-  },
-  {
-    id: 11,
-    date: new Date(2013, 10, 4, 20, 0, 0),
-    city: 'Hamburg, Germany',
-    location: 'CCH 1',
-    tickets: 'http://www.tickethall.de/kuenstler/adya/adya-classic/adya-classic-04-11-2013-hamburg'
-  },
-];
+App.Tour.FIXTURES = [];
 
 App.Video.FIXTURES = [
   {
-    id: 1,
-    title: 'Radio Spot',
-    thumbnail: 'images/video-classic-1-radio.jpg',
-    album: 1
-  },
-  {
-    id: 2,
-    title: 'TV Spot',
-    thumbnail: 'images/video-classic-1-tv.jpg',
-    album: 1
-  },
-  {
     id: 3,
     title: 'TV Clip (LIVE)',
-    thumbnail: 'images/video-classic-1-live.jpg',
+    thumbnail: 'videos/3-thumb.jpg',
     src: 'http://www.youtube.com/watch?v=rCYhpqw7MSs',
     album: 1
   },
   {
-    id: 11,
-    title: 'Radio Spot',
-    thumbnail: 'images/video-classic-2-radio.jpg',
-    album: 2
-  },
-  {
-    id: 12,
-    title: 'TV Spot',
-    thumbnail: 'images/video-classic-2-tv.jpg',
-    album: 2
-  },
-  {
     id: 13,
     title: 'TV Clip (LIVE)',
-    thumbnail: 'images/video-classic-2-live.jpg',
+    thumbnail: 'videos/13-thumb.jpg',
     src: 'http://www.youtube.com/watch?v=tiCsEsVSSHs',
     album: 2
   },
   {
-    id: 21,
-    title: 'Radio Spot',
-    thumbnail: 'images/video-classic-special-radio.jpg',
-    album: 3
-  },
-  {
-    id: 22,
-    title: 'Single Spot',
-    thumbnail: 'images/video-classic-special-single.jpg',
-    album: 3
-  },
-  {
     id: 23,
     title: 'TV Clip (LIVE)',
-    thumbnail: 'images/video-classic-special-live.jpg',
+    thumbnail: 'videos/23-thumb.jpg',
     src: 'https://www.youtube.com/watch?v=m5eIvVwQCKw',
     album: 3
   },
   {
     id: 31,
     title: 'Opera',
-    thumbnail: 'images/video-classic-3-opera.jpg',
+    thumbnail: 'videos/31-thumb.jpg',
     src: 'http://vimeo.com/69101584',
     album: 5
+  },
+  {
+    id: 41,
+    title: 'Medley 29.06.2013',
+    thumbnail: 'videos/41-thumb.jpg',
+    src: 'http://vimeo.com/69424318'
+  },
+  {
+    id: 42,
+    title: 'Medley 02.06.2012',
+    thumbnail: 'videos/42-thumb.jpg',
+    src: 'http://www.youtube.com/watch?v=qnK1uVQyvKI'
+  },
+  {
+    id: 43,
+    title: 'Medley 2011',
+    thumbnail: 'videos/43-thumb.jpg',
+    src: 'http://www.youtube.com/watch?v=_UFcL-FfRaI'
+  },
+  {
+    id: 44,
+    title: '',
+    thumbnail: 'videos/44-thumb.jpg',
+    src: 'http://www.youtube.com/watch?v=1UZfanXM3zs'
   }
 ];
 
@@ -919,66 +836,124 @@ App.Photo.FIXTURES = [
     id: 1,
     thumbnail: 'photos/1-thumb.jpg',
     src: 'photos/1.jpg',
+    album: 1
   },
   {
     id: 2,
-    thumbnail: 'photos/1-thumb.jpg',
-    src: 'photos/1.jpg',
+    thumbnail: 'photos/2-thumb.jpg',
+    src: 'photos/2.jpg',
+    album: 1
   },
   {
     id: 3,
-    thumbnail: 'photos/1-thumb.jpg',
-    src: 'photos/1.jpg',
+    thumbnail: 'photos/3-thumb.jpg',
+    src: 'photos/3.jpg',
+    album: 1
   },
   {
     id: 4,
-    thumbnail: 'photos/1-thumb.jpg',
-    src: 'photos/1.jpg',
+    thumbnail: 'photos/4-thumb.jpg',
+    src: 'photos/4.jpg',
+    album: 1
   },
   {
     id: 5,
-    thumbnail: 'photos/1-thumb.jpg',
-    src: 'photos/1.jpg',
+    thumbnail: 'photos/5-thumb.jpg',
+    src: 'photos/5.jpg',
+    album: 1
   },
   {
     id: 6,
-    thumbnail: 'photos/1-thumb.jpg',
-    src: 'photos/1.jpg',
+    thumbnail: 'photos/6-thumb.jpg',
+    src: 'photos/6.jpg',
+    album: 1
+  },
+  {
+    id: 7,
+    thumbnail: 'photos/7-thumb.jpg',
+    src: 'photos/7.jpg',
+    album: 1
+  },
+  {
+    id: 8,
+    thumbnail: 'photos/8-thumb.jpg',
+    src: 'photos/8.jpg',
+    album: 1
+  },
+  {
+    id: 9,
+    thumbnail: 'photos/9-thumb.jpg',
+    src: 'photos/9.jpg',
+    album: 1
+  },
+  {
+    id: 10,
+    thumbnail: 'photos/10-thumb.jpg',
+    src: 'photos/10.jpg',
+    album: 1
   },
   {
     id: 11,
-    thumbnail: 'images/photo-classic-2.jpg',
-    src: 'photos/1.jpg',
+    thumbnail: 'photos/11-thumb.jpg',
+    src: 'photos/11.jpg',
+    album: 1
+  },
+  {
+    id: 21,
+    thumbnail: 'photos/21-thumb.jpg',
+    src: 'photos/21.jpg',
     album: 2
   },
   {
-    id: 12,
-    thumbnail: 'images/photo-classic-2.jpg',
-    src: 'photos/1.jpg',
+    id: 22,
+    thumbnail: 'photos/22-thumb.jpg',
+    src: 'photos/22.jpg',
     album: 2
   },
   {
-    id: 13,
-    thumbnail: 'images/photo-classic-2.jpg',
-    src: 'photos/1.jpg',
+    id: 23,
+    thumbnail: 'photos/23-thumb.jpg',
+    src: 'photos/23.jpg',
     album: 2
   },
   {
-    id: 14,
-    thumbnail: 'images/photo-classic-2.jpg',
-    src: 'photos/1.jpg',
+    id: 24,
+    thumbnail: 'photos/24-thumb.jpg',
+    src: 'photos/24.jpg',
     album: 2
   },
   {
-    id: 15,
-    thumbnail: 'images/photo-classic-2.jpg',
-    src: 'photos/1.jpg',
+    id: 25,
+    thumbnail: 'photos/25-thumb.jpg',
+    src: 'photos/25.jpg',
     album: 2
   },
   {
-    id: 16,
-    thumbnail: 'images/photo-classic-2.jpg',
-    src: 'photos/1.jpg',
+    id: 26,
+    thumbnail: 'photos/26-thumb.jpg',
+    src: 'photos/26.jpg',
     album: 2
+  },
+  {
+    id: 27,
+    thumbnail: 'photos/27-thumb.jpg',
+    src: 'photos/27.jpg',
+    album: 2
+  },
+  {
+    id: 28,
+    thumbnail: 'photos/28-thumb.jpg',
+    src: 'photos/28.jpg',
+    album: 2
+  },
+  {
+    id: 31,
+    thumbnail: 'photos/31-thumb.jpg',
+    src: 'photos/31.jpg',
+  },
+  {
+    id: 32,
+    thumbnail: 'photos/32-thumb.jpg',
+    src: 'photos/32.jpg',
   }
 ];
