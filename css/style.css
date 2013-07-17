@@ -263,6 +263,91 @@ footer p {
   width: 940px;
 }
 
+#top-singles h1 {
+  color: #232322;
+  font-size: 28px;
+  margin: 0 0 34px 0;
+  text-align: center;
+}
+
+#top-singles ol {
+  width: 970px;
+}
+
+#top-singles ol > li {
+  float: left;
+  list-style: none;
+  margin: 0 40px 40px 0;
+  width: 445px;
+}
+
+#top-singles img {
+  float: left;
+}
+
+#top-singles ul {
+  float: right;
+  margin: 0;
+  padding: 0;
+  width: 280px;
+}
+
+#top-singles ul li {
+  background: url(../images/play-li.png) 0 2px no-repeat;
+  border-bottom: 1px solid #e5e3e0;
+  border-color: rgba(203, 202, 197, .42);
+  list-style: none;
+  margin: 0 0 9px 0;
+  padding: 0 75px 0 35px;
+  position: relative;
+  width: 170px;
+}
+
+#top-singles a {
+  text-decoration: none;
+}
+
+#top-singles h2,
+#top-singles p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+#top-singles h2 {
+  color: #232322;
+  font-size: 14px;
+  margin: 0 0 3px 0;
+}
+
+#top-singles p {
+  color: #a29f9a;
+  font-size: 12px;
+  margin: 0 0 6px 0;
+}
+
+#top-singles span {
+  background: url(../images/itunes-small.png);
+  color: #6d1a22;
+  display: block;
+  font-size: 12px;
+  height: 30px;
+  line-height: 30px;
+  padding: 0 0 0 30px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 39px;
+}
+
+#top-singles hr {
+  background: url(../images/hr.png);
+  border: 0;
+  height: 12px;
+  margin: 0 auto 68px auto;
+  width: 940px;
+}
+
 #photo-album h1 {
   color: #232322;
   font-size: 28px;

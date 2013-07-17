@@ -46,6 +46,7 @@
     {{render "hero"}}
     {{partial "adya"}}
     {{render "tours"}}
+    {{render "topSingles"}}
     {{render "photoAlbum"}}
   </script>
 
@@ -113,6 +114,36 @@
       <hr />
     </section>
     {{/if}}
+  </script>
+
+  <script type="text/x-handlebars" data-template-name="topSingles">
+    <section id="top-singles" class="container">
+      <h1>Top Singles</h1>
+
+      <ol>
+      {{#each album in model itemController="topSinglesAlbum"}}
+        <li>
+          <img {{bindAttr src="album.coverImage"}} />
+          <ul>
+          {{#each track in album.topTracks}}
+            <li>
+              <a {{bindAttr href="track.itunes"}} target="_blank">
+                <div class="left">
+                  <h2>{{track.title}}</h2>
+                  <p>{{track.composer}}</p>
+                </div>
+                <div class="right">
+                  <span>0.99€</span>
+                </div>
+              </a>
+            </li>
+          {{/each}}
+          </ul>
+        </li>
+      {{/each}}
+
+      <hr />
+    </section>
   </script>
 
   <script type="text/x-handlebars" data-template-name="photoAlbum">

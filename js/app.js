@@ -25,6 +25,7 @@ App.IndexRoute = Ember.Route.extend({
     this._super(controller, model);
     this.setupHeroController();
     this.setupToursController();
+    this.setupTopSinglesController();
     this.setupPhotoAlbumController();
   },
 
@@ -35,6 +36,15 @@ App.IndexRoute = Ember.Route.extend({
 
   setupToursController: function() {
     this.controllerFor('tours').set('model', App.Tour.find());
+  },
+
+  setupTopSinglesController: function() {
+    var classic_three = App.Album.find(5);
+    var classic_two = App.Album.find(2);
+    var classic_one = App.Album.find(1);
+    var albums = Ember.A([ classic_three, classic_two, classic_one ])
+
+    this.controllerFor('topSingles').set('model', albums);
   },
 
   setupPhotoAlbumController: function() {
@@ -90,6 +100,15 @@ App.HeroController = Ember.ObjectController.extend();
 
 App.ToursController = Ember.ArrayController.extend();
 
+App.TopSinglesController = Ember.ArrayController.extend({
+});
+
+App.TopSinglesAlbumController = Ember.ObjectController.extend({
+  topTracks: function() {
+    return this.get('model.tracks').filterProperty('bestseller', true);
+  }.property('model.tracks.@each.bestseller')
+});
+
 App.PhotoAlbumController = Ember.ArrayController.extend({
   // FixtureAdapter does not support querying ;(
   filteredModel: function() {
@@ -110,17 +129,13 @@ App.DiscographyController = Ember.ArrayController.extend({
 });
 
 App.AlbumController = Ember.ObjectController.extend({
-  coverImage: function() {
-    return 'images/album-' + this.get('model').get('title').dasherize() + '.png';
-  }.property(),
-
   trackLists: function() {
-    var tracks = this.get('model').get('tracks');
+    var tracks = this.get('model.tracks');
     var modulo = tracks.get('length') % 3;
     var divider = (tracks.get('length') - modulo) / 3 + 1;
 
     return [ tracks.slice(0, divider), tracks.slice(divider, divider * 2), tracks.slice(divider * 2, divider * 3) ];
-  }.property()
+  }.property('model.tracks')
 });
 
 App.DownloadsPhotosController = Ember.ArrayController.extend({
@@ -207,12 +222,20 @@ App.Album = DS.Model.extend({
   title: DS.attr('string'),
   tracks: DS.hasMany('App.Track'),
   amazon: DS.attr('string'),
-  itunes: DS.attr('string')
+  itunes: DS.attr('string'),
+
+  coverImage: function() {
+    if (this.get('title')) {
+      return 'images/album-' + this.get('title').dasherize() + '.png';
+    }
+  }.property('title')
 });
 
 App.Track = DS.Model.extend({
   title: DS.attr('string'),
-  composer: DS.attr('string')
+  composer: DS.attr('string'),
+  bestseller: DS.attr('boolean'),
+  itunes: DS.attr('itunes')
 });
 
 App.Tour = DS.Model.extend({
@@ -268,7 +291,7 @@ App.Message = Ember.Object.extend({
         'important': true
       }
     }
-  }.property('apiKey', 'body', 'subject', 'email', 'name'),
+  }.property('apiKey', 'formattedSubject', 'formattedBody', 'email', 'name'),
 
   send: function() {
     var jqxhr = $.post('https://mandrillapp.com/api/1.0//messages/send.json', this.get('options'));
@@ -302,7 +325,7 @@ App.Album.FIXTURES = [
     title: 'Classic 3',
     tracks: [101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117],
     amazon: 'http://www.amazon.de/Classic-3-Opera-Adya/dp/B00D4D5PC8',
-    itunes: 'https://itunes.apple.com/de/album/classic-3-opera/id660312677?l=en'
+    itunes: 'https://itunes.apple.com/be/album/adya-classic-3/id653472088'
   }
 ];
 
@@ -310,7 +333,9 @@ App.Track.FIXTURES = [
   {
     id: 1,
     title: 'Light Cavalry Achrimides',
-    composer: 'F. Von Suppé'
+    composer: 'F. Von Suppé',
+    bestseller: true,
+    itunes: 'https://itunes.apple.com/be/album/light-cavalry-achrimides/id295865203?i=295865264'
   },
   {
     id: 2,
@@ -320,7 +345,9 @@ App.Track.FIXTURES = [
   {
     id: 3,
     title: 'La Gazza Ladra Voladiche',
-    composer: 'G. Rossini'
+    composer: 'G. Rossini',
+    bestseller: true,
+    itunes: 'https://itunes.apple.com/be/album/la-gazza-ladra-voladiche/id295865203?i=295865442'
   },
   {
     id: 4,
@@ -335,7 +362,9 @@ App.Track.FIXTURES = [
   {
     id: 6,
     title: 'Out Of Africa Carafulia',
-    composer: 'W.A. Mozart'
+    composer: 'W.A. Mozart',
+    bestseller: true,
+    itunes: 'https://itunes.apple.com/be/album/out-of-africa-carafulia/id295865203?i=295865448'
   },
   {
     id: 7,
@@ -415,7 +444,9 @@ App.Track.FIXTURES = [
   {
     id: 25,
     title: 'Amazing Grace Siralynth',
-    composer: 'E. Abrath'
+    composer: 'E. Abrath',
+    bestseller: true,
+    itunes: 'https://itunes.apple.com/be/album/amazing-grace-siralynth/id296390597?i=296390650'
   },
   {
     id: 26,
@@ -430,12 +461,16 @@ App.Track.FIXTURES = [
   {
     id: 28,
     title: 'The Emperor Muvagora',
-    composer: 'J. Strauss - Son'
+    composer: 'J. Strauss - Son',
+    bestseller: true,
+    itunes: 'https://itunes.apple.com/be/album/the-emperor-muvagora/id296390597?i=296390660'
   },
   {
     id: 29,
     title: 'Dance Of The Hours Souraktoff',
-    composer: 'A. Ponchielli'
+    composer: 'A. Ponchielli',
+    bestseller: true,
+    itunes: 'https://itunes.apple.com/be/album/dance-of-the-hours-souraktoff/id296390597?i=296390664'
   },
   {
     id: 30,
@@ -705,7 +740,9 @@ App.Track.FIXTURES = [
   {
     id: 104,
     title: 'Der Vogelfänger',
-    composer: 'Die Zauberflöte • Wolfgang Amadeus Mozart'
+    composer: 'Die Zauberflöte • Wolfgang Amadeus Mozart',
+    bestseller: true,
+    itunes: 'https://itunes.apple.com/be/album/der-vogelfanger-die-zauberflote/id653472088?i=653472157'
   },
   {
     id: 105,
@@ -725,7 +762,9 @@ App.Track.FIXTURES = [
   {
     id: 108,
     title: 'Ouverture',
-    composer: 'William Tell • Gioacchino Rossini'
+    composer: 'William Tell • Gioacchino Rossini',
+    bestseller: true,
+    itunes: 'https://itunes.apple.com/be/album/ouverture-william-tell-gioacchino/id653472088?i=653472161'
   },
   {
     id: 109,
@@ -770,7 +809,9 @@ App.Track.FIXTURES = [
   {
     id: 117,
     title: 'Adya Medley',
-    composer: 'Stars and Stripes • John Philip de Sousa • Mein Kleiner Gardeoffizier • Robert Stolz/Walter Reisch • Einzugsmarsch (Der Zigeunerbaron Opus 327) • Johann Strauss jr. • Radetzky Marsch • Johann Strauss sr.'
+    composer: 'Stars and Stripes • John Philip de Sousa • Mein Kleiner Gardeoffizier • Robert Stolz/Walter Reisch • Einzugsmarsch (Der Zigeunerbaron Opus 327) • Johann Strauss jr. • Radetzky Marsch • Johann Strauss sr.',
+    bestseller: true,
+    itunes: 'https://itunes.apple.com/be/album/adya-medley/id653472088?i=653472171'
   }
 ];
 
