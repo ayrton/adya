@@ -847,6 +847,13 @@ App.Video.FIXTURES = [
     album: 5
   },
   {
+    id: 32,
+    title: 'Largo Al Factotum',
+    thumbnail: 'videos/32-thumb.jpg',
+    src: 'https://vimeo.com/70574325',
+    album: 5
+  },
+  {
     id: 41,
     title: 'Medley 29.06.2013',
     thumbnail: 'videos/41-thumb.jpg',
