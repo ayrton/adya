@@ -876,6 +876,12 @@ App.Video.FIXTURES = [
     title: '',
     thumbnail: 'videos/44-thumb.jpg',
     src: 'http://www.youtube.com/watch?v=1UZfanXM3zs'
+  },
+  {
+    id: 45,
+    title: 'ADYA & Manuel Palomo',
+    thumbnail: 'videos/45-thumb.jpg',
+    src: 'https://www.youtube.com/watch?v=SxgAS7lw76U'
   }
 ];
 
