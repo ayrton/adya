@@ -1,0 +1,1455 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"mfp-",
+				"mfp-tg_caption"
+			],
+			[
+				"dest",
+				"destZoomLevel"
+			],
+			[
+				"borde",
+				"border-box"
+			],
+			[
+				"mfp-zoom",
+				"mfp-tg_zoom_wrap"
+			],
+			[
+				"mainscr",
+				"mainScrollPos"
+			],
+			[
+				"mainS",
+				"mainScrollShifted"
+			],
+			[
+				"currto",
+				"currentTouchesList"
+			],
+			[
+				"currZ",
+				"currZoomElement"
+			],
+			[
+				"elem",
+				"elementSize"
+			],
+			[
+				"ondrag",
+				"onDragRelease"
+			],
+			[
+				"onDrag",
+				"onDragMove"
+			],
+			[
+				"currZo",
+				"currZoomLevel"
+			],
+			[
+				"mainSc",
+				"mainScrollAnimating"
+			],
+			[
+				"contai",
+				"containerShiftIndex"
+			],
+			[
+				"holder",
+				"holdersLength"
+			],
+			[
+				"containers",
+				"containerShiftIndex"
+			],
+			[
+				"currZoo",
+				"currZoomElementStyle"
+			],
+			[
+				"calcul",
+				"calculateOverBoundsAnimOffset"
+			],
+			[
+				"has",
+				"hasSize"
+			],
+			[
+				"zoom",
+				"zoomLevel"
+			],
+			[
+				"startp",
+				"startPanOffset"
+			],
+			[
+				"pointe",
+				"pointerPos"
+			],
+			[
+				"conta",
+				"container"
+			],
+			[
+				"touches",
+				"touchesList"
+			],
+			[
+				"pro",
+				"prototype"
+			],
+			[
+				"container",
+				"containerStyle"
+			],
+			[
+				"setP",
+				"setPointCoordinates"
+			],
+			[
+				"mainScr",
+				"mainScrollShifted"
+			],
+			[
+				"lastf",
+				"lastFlickOffset"
+			],
+			[
+				"lastFl",
+				"lastFlickDist"
+			],
+			[
+				"mainscroll",
+				"mainScrollShifted"
+			],
+			[
+				"release",
+				"releaseTimeDiff"
+			],
+			[
+				"mains",
+				"mainScrollShifted"
+			],
+			[
+				"double",
+				"doubleTapZoomInitiated"
+			],
+			[
+				"pin",
+				"pinch"
+			],
+			[
+				"init",
+				"initialZoomLevel"
+			],
+			[
+				"initia",
+				"initialZoomLevel"
+			],
+			[
+				"inita",
+				"initialZoomLevel"
+			],
+			[
+				"zom",
+				"zoomLevel"
+			],
+			[
+				"yDi",
+				"yDist"
+			],
+			[
+				"ydi",
+				"yDistDelta"
+			],
+			[
+				"yD",
+				"yDistDelta"
+			],
+			[
+				"yDis",
+				"prevYDist"
+			],
+			[
+				"zo",
+				"zoomFriction"
+			],
+			[
+				"dragre",
+				"dragReleasePoint"
+			],
+			[
+				"sineEa",
+				"sineEaseInOut"
+			],
+			[
+				"cubicea",
+				"cubicEaseInOut"
+			],
+			[
+				"calculatpa",
+				"calculatePanOffset"
+			],
+			[
+				"inner",
+				"innerPanBounds"
+			],
+			[
+				"mainsc",
+				"mainScrollAnimating"
+			],
+			[
+				"currIte",
+				"currItemIndex"
+			],
+			[
+				"currItem",
+				"currItemIndex"
+			],
+			[
+				"mainScrollAn",
+				"mainScrollAnimatingIndex"
+			],
+			[
+				"previt",
+				"prevItemContainer"
+			],
+			[
+				"nexti",
+				"nextItem"
+			],
+			[
+				"webkit-transf",
+				"webkit-transform-origin"
+			],
+			[
+				"apply",
+				"applyZoomPanStyle"
+			],
+			[
+				"easin",
+				"easing"
+			],
+			[
+				"ret",
+				"Return"
+			],
+			[
+				"quin",
+				"quintEaseOut"
+			],
+			[
+				"easi",
+				"easing"
+			],
+			[
+				"easing",
+				"easingFn"
+			],
+			[
+				"pow",
+				"powEasingFactor"
+			],
+			[
+				"animateT",
+				"animateToPos"
+			],
+			[
+				"return",
+				"returnToCurrent"
+			],
+			[
+				"viewpor",
+				"viewportSize"
+			],
+			[
+				"lastFli",
+				"lastFlickSpeed"
+			],
+			[
+				"lastFlic",
+				"lastFlickDist"
+			],
+			[
+				"viewP",
+				"viewportSize"
+			],
+			[
+				"viewpo",
+				"viewportSize"
+			],
+			[
+				"pinch",
+				"pinchPointer1Release"
+			],
+			[
+				"startPanof",
+				"startPanOffsetReal"
+			],
+			[
+				"gesture",
+				"gestureType"
+			],
+			[
+				"startpan",
+				"startPanTranslate"
+			],
+			[
+				"panOf",
+				"panOffsetDiff"
+			],
+			[
+				"panof",
+				"panOffset"
+			],
+			[
+				"zoomP",
+				"zoomPan"
+			],
+			[
+				"ppp",
+				"pppOffset"
+			],
+			[
+				"getTouch",
+				"getTouchEvent"
+			],
+			[
+				"delta",
+				"delta"
+			],
+			[
+				"calcu",
+				"calculateMovePoint"
+			],
+			[
+				"zoomPo",
+				"zoomPoint"
+			],
+			[
+				"currcent",
+				"currCenterPointY"
+			],
+			[
+				"currPanOff",
+				"currPanOffsetY"
+			],
+			[
+				"startpanoff",
+				"startPanOffsetReal"
+			],
+			[
+				"startpano",
+				"startPanOffsetReal"
+			],
+			[
+				"currPa",
+				"currPanOffsetX"
+			],
+			[
+				"startpantr",
+				"startPanTranslateX"
+			],
+			[
+				"midzo",
+				"midZoomPointX"
+			],
+			[
+				"midZo",
+				"midZoomPointX"
+			],
+			[
+				"midz",
+				"midZoomPointX"
+			],
+			[
+				"currPanof",
+				"currPanOffsetY"
+			],
+			[
+				"setZoo",
+				"setZoomLevel"
+			],
+			[
+				"startz",
+				"startZl"
+			],
+			[
+				"registe",
+				"registerStartAnimation"
+			],
+			[
+				"cancel",
+				"cancelAnimationFrame"
+			],
+			[
+				"cal",
+				"calculateStartProps"
+			],
+			[
+				"lastflick",
+				"lastFlickOffset"
+			],
+			[
+				"lastFlick",
+				"lastFlickOffset"
+			],
+			[
+				"slowdo",
+				"slowDownRatoReverse"
+			],
+			[
+				"slowd",
+				"slowDownRatoReverse"
+			],
+			[
+				"slowDo",
+				"slowDownRatio"
+			],
+			[
+				"expo",
+				"expoEaseOut"
+			],
+			[
+				"times",
+				"timesToScale"
+			],
+			[
+				"dista",
+				"distanceToEnd"
+			],
+			[
+				"newPanof",
+				"newPanOffsetX"
+			],
+			[
+				"cance",
+				"cancelAnimationFrame"
+			],
+			[
+				"goi",
+				"goingBack"
+			],
+			[
+				"newPan",
+				"newPanOffsetX"
+			],
+			[
+				"slow",
+				"slowDownRatio"
+			],
+			[
+				"slowDow",
+				"slowDownRatoReverse"
+			],
+			[
+				"lastfl",
+				"lastFlickSpeed"
+			],
+			[
+				"lastF",
+				"lastFlickSpeed"
+			],
+			[
+				"startpoi",
+				"startPointerPos"
+			],
+			[
+				"dela",
+				"deltaY"
+			],
+			[
+				"newTra",
+				"newTranslateX"
+			],
+			[
+				"newtr",
+				"newTranslateX"
+			],
+			[
+				"currPan",
+				"currPanTranslateX"
+			],
+			[
+				"currElem",
+				"currElementWidth"
+			],
+			[
+				"currzo",
+				"currZoomLevel"
+			],
+			[
+				"currPantra",
+				"currPanTranslateX"
+			],
+			[
+				"eleme",
+				"currElementWidth"
+			],
+			[
+				"del",
+				"deltaY"
+			],
+			[
+				"currpan",
+				"currPanTranslateY"
+			],
+			[
+				"currP",
+				"currPanTranslateY"
+			],
+			[
+				"currEl",
+				"currElementWidth"
+			],
+			[
+				"view",
+				"viewportWidth"
+			],
+			[
+				"viewp",
+				"viewportHeight"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "src/js/core.js",
+			"settings":
+			{
+				"buffer_size": 21433,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix",
+				"name": "Find Results",
+				"scratch": true
+			}
+		},
+		{
+			"contents": "/*\n * RoyalSlider\n *\n * @version 9.4.92:\n *\n * Copyright 2011-2013, Dmitry Semenov\n *\n */\n(function($) {\n\n	\"use strict\";\n\n	if(!$.rsModules) {\n		$.rsModules = {uid:0};\n	}\n\n	function RoyalSlider(element, options) {\n		var i,\n			self = this,\n			ua = navigator.userAgent.toLowerCase();\n\n		self.uid = $.rsModules.uid++;\n		self.ns = '.rs' + self.uid; // unique namespace for events\n\n		// feature detection, some ideas taken from Modernizr\n		var tempStyle = document.createElement('div').style,\n			vendors = ['webkit','Moz','ms','O'],\n			vendor = '',\n			lastTime = 0,\n			tempV;\n\n		for (i = 0; i < vendors.length; i++ ) {\n			tempV = vendors[i];\n			if (!vendor && (tempV + 'Transform') in tempStyle ) {\n				vendor = tempV;\n			}\n			tempV = tempV.toLowerCase();\n			\n			if(!window.requestAnimationFrame) {\n				window.requestAnimationFrame = window[tempV+'RequestAnimationFrame'];\n				window.cancelAnimationFrame = window[tempV+'CancelAnimationFrame'] || window[tempV+'CancelRequestAnimationFrame'];\n			}\n		}\n\n		// requestAnimationFrame polyfill by Erik Mรถller\n		// fixes from Paul Irish and Tino Zijdel\n		if (!window.requestAnimationFrame) {\n			window.requestAnimationFrame = function(callback, element) {\n				var currTime = new Date().getTime(),\n					timeToCall = Math.max(0, 16 - (currTime - lastTime)),\n					id = window.setTimeout(function() { callback(currTime + timeToCall); }, timeToCall);\n					lastTime = currTime + timeToCall;\n				return id;\n			};\n		}\n\n		if (!window.cancelAnimationFrame) {\n			window.cancelAnimationFrame = function(id) { clearTimeout(id); };\n		}\n			\n\n		self.isIPAD = ua.match(/(ipad)/);\n\n\n		// browser UA sniffing, sadly still required\n		var uaMatch = function( ua ) {\n			var match = /(chrome)[ \\/]([\\w.]+)/.exec( ua ) ||\n				/(webkit)[ \\/]([\\w.]+)/.exec( ua ) ||\n				/(opera)(?:.*version|)[ \\/]([\\w.]+)/.exec( ua ) ||\n				/(msie) ([\\w.]+)/.exec( ua ) ||\n				ua.indexOf(\"compatible\") < 0 && /(mozilla)(?:.*? rv:([\\w.]+)|)/.exec( ua ) ||\n				[];\n\n			return {\n				browser: match[ 1 ] || \"\",\n				version: match[ 2 ] || \"0\"\n			};\n		};\n		var matched = uaMatch( ua );\n		var br = {};\n		if ( matched.browser ) {\n			br[ matched.browser ] = true;\n			br.version = matched.version;\n		}\n\n		if(br.chrome) { \n			br.webkit = true;\n		}\n\n		self._browser = br;\n		self.isAndroid = ua.indexOf(\"android\") > -1;\n\n\n\n		self.slider = $(element); // DOM reference\n		self.ev = $(self); // event object\n		self._doc = $(document);\n		self.st = $.extend({}, $.fn.royalSlider.defaults, options); \n		self._currAnimSpeed = self.st.transitionSpeed;\n		self._minPosOffset = 0;\n		if(self.st.allowCSS3) {\n			if((!br.webkit || self.st.allowCSS3OnWebkit) ) {\n				var bT = vendor + (vendor ? 'T' : 't' );\n				self._useCSS3Transitions = ( (bT + 'ransform') in tempStyle ) && ( (bT + 'ransition') in tempStyle );\n				if(self._useCSS3Transitions) {\n					self._use3dTransform = (vendor + (vendor ? 'P' : 'p'  ) + 'erspective') in tempStyle;\n				}\n			}\n		}\n		\n		vendor = vendor.toLowerCase();\n		self._vendorPref = '-'+vendor+'-';\n		\n		self._slidesHorizontal = (self.st.slidesOrientation === 'vertical') ? false : true;\n		self._reorderProp = self._slidesHorizontal ? 'left' : 'top';\n		self._sizeProp = self._slidesHorizontal ? 'width' : 'height';\n		self._prevNavItemId = -1;\n		self._isMove = (self.st.transitionType === 'fade') ? false : true;\n		if(!self._isMove) {\n			self.st.sliderDrag = false;\n			self._fadeZIndex = 10;\n		}\n		self._opacityCSS = 'z-index:0; display:none; opacity:0;';\n\n		self._newSlideId = 0;\n		self._sPosition = 0;\n		self._nextSlidePos = 0;\n\n		// init modules\n		$.each($.rsModules, function (helper, opts) {\n			if(helper !== 'uid')\n				opts.call(self);\n		});\n\n		// parse all slides\n		self.slides = [];\n		self._idCount = 0;\n		var returnVal;\n		var ts = self.st.slides ? $(self.st.slides) : self.slider.children().detach();\n		\n		ts.each(function() {\n			self._parseNode(this, true);\n		});\n\n		if(self.st.randomizeSlides) {\n			self.slides.sort(function() { return 0.5 - Math.random(); });\n		}\n		self.numSlides = self.slides.length;\n		self._refreshNumPreloadImages();\n\n		if(!self.st.startSlideId) {\n			self.st.startSlideId = 0;\n		} else if(self.st.startSlideId > self.numSlides - 1) {\n			self.st.startSlideId = self.numSlides - 1;\n		}\n\n		self._newSlideId = self.staticSlideId = self.currSlideId = self._realId =  self.st.startSlideId;\n		self.currSlide = self.slides[self.currSlideId];\n\n		self._accelerationPos = 0;\n		self.msTouch = false;\n		self.slider.addClass( (self._slidesHorizontal ? 'rsHor' : 'rsVer') + (self._isMove ? '' : ' rsFade') );\n\n		var sliderHTML = '<div class=\"rsOverflow\"><div class=\"rsContainer\">';\n		self.slidesSpacing = self.st.slidesSpacing;\n		self._slideSize = ( self._slidesHorizontal ? self.slider.width() : self.slider.height() ) + self.st.slidesSpacing;\n\n		self._preload = Boolean(self._numPreloadImages > 0);\n		\n		if(self.numSlides <= 1) {\n			self._loop = false;\n		}\n		var loopHelpers = (self._loop && self._isMove) ? ( self.numSlides === 2 ? 1 : 2) : 0;\n		self._loopHelpers = loopHelpers;\n\n		self._maxImages = self.numSlides < 6 ? self.numSlides : 6;\n		self._currBlockIndex = 0;\n\n\n		self._idOffset = 0;\n		self.slidesJQ = [];\n		\n		for(i =0; i < self.numSlides; i++) {\n			self.slidesJQ.push( $(createItemHTML(i)) );\n		}\n		self._sliderOverflow = sliderHTML = $(sliderHTML + '</div></div>');\n\n\n		var addCursors = function() {\n			if(self.st.sliderDrag) {\n				self._hasDrag = true;\n				if (br.msie || br.opera) {\n					self._grabCursor = self._grabbingCursor = \"move\";\n				} else if(br.mozilla) {\n					self._grabCursor = \"-moz-grab\";\n					self._grabbingCursor = \"-moz-grabbing\";\n				} else if(br.webkit && (navigator.platform.indexOf(\"Mac\")!=-1)) {\n					self._grabCursor = \"-webkit-grab\";\n					self._grabbingCursor = \"-webkit-grabbing\";\n				}\n				self._setGrabCursor();\n			}\n		};\n		var rsNS = self.ns;\n		var addEventNames = function(pref, down, move, up, cancel) {\n			self._downEvent = pref + down + rsNS;\n			self._moveEvent = pref + move + rsNS;\n			self._upEvent = pref + up + rsNS;\n			if(cancel)\n				self._cancelEvent = pref + cancel + rsNS;\n		};\n\n\n		// ie10\n		self.msEnabled = window.navigator.msPointerEnabled;\n\n		if(self.msEnabled) {\n			self.msTouch = Boolean(window.navigator.msMaxTouchPoints > 1);\n			self.hasTouch = false;\n			self._lastItemFriction = 0.2;\n			\n			addEventNames('MSPointer', 'Down', 'Move', 'Up', 'Cancel');\n		} else {\n			addEventNames('mouse', 'down', 'move', 'up', 'up');\n\n			if('ontouchstart' in window || 'createTouch' in document) {\n				self.hasTouch = true;\n				self._downEvent += ' touchstart' + rsNS;\n				self._moveEvent += ' touchmove' + rsNS;\n				self._upEvent += ' touchend' + rsNS;\n				self._cancelEvent += ' touchcancel' + rsNS;\n				self._lastItemFriction = 0.5;\n				if(self.st.sliderTouch) {\n					self._hasDrag = true;\n				}\n			} else {\n				self.hasTouch = false;\n				self._lastItemFriction = 0.2;\n			}\n		}\n		addCursors();\n	\n		self.slider.html(sliderHTML);\n\n		\n		self._controlsContainer = self.st.controlsInside ? self._sliderOverflow : self.slider;\n		\n		self._slidesContainer = self._sliderOverflow.children('.rsContainer');\n		if(self.msEnabled) {\n			self._slidesContainer.css('-ms-touch-action', self._slidesHorizontal ? 'pan-y' : 'pan-x');\n		}\n		self._preloader = $('<div class=\"rsPreloader\"></div>');\n		var slides = self._slidesContainer.children('.rsSlide');\n\n		self._currHolder = self.slidesJQ[self.currSlideId];\n		self._selectedSlideHolder = 0;\n\n		function createItemHTML(i, className) {\n			return '<div style=\"'+ (self._isMove ? '' : (i !== self.currSlideId  ? self._opacityCSS : 'z-index:0;') ) +'\" class=\"rsSlide '+ (className || '')+'\"></div>';\n		}\n		\n		if(self._useCSS3Transitions) {\n\n			// some constants for CSS3\n			self._TP = 'transition-property';\n			self._TD = 'transition-duration';\n			self._TTF = 'transition-timing-function';\n\n			self._yProp = self._xProp = self._vendorPref +'transform';\n\n			if(self._use3dTransform) {\n				if(br.webkit && !br.chrome) {\n					self.slider.addClass('rsWebkit3d');\n				}\n				if((/iphone|ipad|ipod/gi).test(navigator.appVersion)) {\n					\n				}\n\n				self._tPref1 = 'translate3d(';\n				self._tPref2 = 'px, ';\n				self._tPref3 = 'px, 0px)';\n			} else {\n				self._tPref1 = 'translate(';\n				self._tPref2 = 'px, ';\n				self._tPref3 = 'px)';\n			}\n			if(!self._isMove) {\n				var animObj = {};\n				animObj[(self._vendorPref + self._TP)] = 'opacity';\n				animObj[(self._vendorPref + self._TD)] = self.st.transitionSpeed + 'ms';\n				animObj[(self._vendorPref + self._TTF)] = self.st.css3easeInOut;\n				slides.css(animObj);\n			} else {\n				self._slidesContainer[(self._vendorPref + self._TP)] = (self._vendorPref + 'transform');\n			}\n			\n\n		} else {\n			self._xProp = 'left';\n			self._yProp = 'top';\n		}\n\n		\n\n		// window resize\n		var resizeTimer;\n		$(window).on('resize'+self.ns, function() {	\n			if(resizeTimer) {\n				clearTimeout(resizeTimer);			\n			}\n			resizeTimer = setTimeout(function() { self.updateSliderSize(); }, 50);			\n		});	\n		self.ev.trigger('rsAfterPropsSetup'); // navigation (bullets, thumbs...) are created here\n\n		self.updateSliderSize();\n\n\n		// keyboard nav\n		if(self.st.keyboardNavEnabled) {\n			self._bindKeyboardNav();\n		}\n\n		if(self.st.arrowsNavHideOnTouch && (self.hasTouch || self.msTouch) ) {\n			self.st.arrowsNav = false;\n		}\n\n		//Direction navigation (arrows)\n		if(self.st.arrowsNav) {\n			var rArr = 'rsArrow',\n				container = self._controlsContainer;\n			$('<div class=\"'+rArr+' '+rArr+'Left\"><div class=\"'+rArr+'Icn\"></div></div><div class=\"'+rArr+' '+rArr+'Right\"><div class=\"'+rArr+'Icn\"></div></div>').appendTo(container);\n\n			self._arrowLeft = container.children('.'+rArr+'Left').click(function(e) {\n				e.preventDefault();\n				self.prev();\n			});\n			self._arrowRight = container.children('.'+rArr+'Right').click(function(e) {\n				e.preventDefault();\n				self.next();\n			});\n\n			if(self.st.arrowsNavAutoHide && !self.hasTouch) {\n				self._arrowLeft.addClass('rsHidden');\n				self._arrowRight.addClass('rsHidden');\n\n				var hoverEl = container;\n				hoverEl.one(\"mousemove.arrowshover\",function() {\n					self._arrowLeft.removeClass('rsHidden');\n					self._arrowRight.removeClass('rsHidden');			\n				});\n\n\n				hoverEl.hover(\n					function() {\n						if(!self._arrowsAutoHideLocked) {\n							self._arrowLeft.removeClass('rsHidden');\n							self._arrowRight.removeClass('rsHidden');\n						}\n					},\n					function() {\n						if(!self._arrowsAutoHideLocked) {\n							self._arrowLeft.addClass('rsHidden');\n							self._arrowRight.addClass('rsHidden');\n						}\n					}\n				);	\n			}	\n			self.ev.on('rsOnUpdateNav', function() {\n				self._updateArrowsNav();\n			});\n			self._updateArrowsNav();\n		}\n\n			\n		\n		if( self._hasDrag ) {\n			self._slidesContainer.on(self._downEvent, function(e) { self._onDragStart(e); });	\n		} else {\n			self.dragSuccess = false;\n		}\n		var videoClasses = ['rsPlayBtnIcon', 'rsPlayBtn', 'rsCloseVideoBtn', 'rsCloseVideoIcn'];\n		self._slidesContainer.click(function(e) {\n			if(!self.dragSuccess) {\n				var t = $(e.target);\n				var tClass = t.attr('class');\n				if( $.inArray(tClass, videoClasses) !== -1) {\n					if( self.toggleVideo() ) {\n						return false;\n					}\n				}\n				if(self.st.navigateByClick && !self._blockActions) {\n					if($(e.target).closest('.rsNoDrag', self._currHolder).length) {\n						return true;\n					}\n					self._mouseNext(e);\n				} \n				self.ev.trigger('rsSlideClick');\n			} \n		}).on('click.rs', 'a', function(e) {	\n			if(self.dragSuccess) {						\n				return false;\n			} else {\n				self._blockActions = true;\n				//e.stopPropagation();\n				//e.stopImmediatePropagation();\n				setTimeout(function() {\n					self._blockActions = false;\n				}, 3);\n			}\n		});\n		self.ev.trigger('rsAfterInit');\n	} /* RoyalSlider Constructor End */\n\n	/**\n	 *\n	 * RoyalSlider Core Prototype\n	 * \n	 */\n	RoyalSlider.prototype = {\n		constructor: RoyalSlider,\n		_mouseNext: function(e) {\n			var self = this,\n				relativePos = e[self._slidesHorizontal ? 'pageX' : 'pageY'] - self._sliderOffset;\n\n			if(relativePos >= self._nextSlidePos) {\n				self.next();\n			} else if(relativePos < 0) {\n				self.prev();\n			}\n		},\n		_refreshNumPreloadImages: function() {\n			var self = this,\n				n;\n			n = self.st.numImagesToPreload;\n			self._loop = self.st.loop;\n\n			if(self._loop) {\n				if(self.numSlides === 2) {\n					self._loop = false;\n					self.st.loopRewind = true;\n				} else if(self.numSlides < 2) {\n					self.st.loopRewind = self._loop = false;\n				}\n				\n			}\n			if(self._loop && n > 0) {\n				if(self.numSlides <= 4) {\n					n = 1;\n				} else {\n					if(self.st.numImagesToPreload > (self.numSlides - 1) / 2 ) {\n						n = Math.floor( (self.numSlides - 1) / 2 );\n					}\n				} \n			}\n			self._numPreloadImages = n;\n		},\n		_parseNode: function(content, pushToSlides) {\n			var self = this,\n				hasImg,\n				isRoot,\n				hasCover,\n				obj = {},\n				tempEl,\n				first = true;\n			content = $(content);\n			self._currContent = content;\n			self.ev.trigger('rsBeforeParseNode', [content, obj]);\n			if(obj.stopParsing) {\n				return;\n			}\n			content = self._currContent;\n			obj.id = self._idCount;\n			obj.contentAdded = false;\n			self._idCount++;\n			obj.images = [];\n			obj.isBig = false;\n\n			if(!obj.hasCover) {\n				if(content.hasClass('rsImg')) {\n					tempEl = content;\n					hasImg = true;\n				} else {\n					tempEl = content.find('.rsImg');\n					if(tempEl.length) {\n						hasImg = true;\n					}\n				}\n\n				if(hasImg) {\n					obj.bigImage = tempEl.eq(0).attr('data-rsBigImg');\n					tempEl.each(function() {\n						var item = $(this);\n						if(item.is('a')) {\n							parseEl(item, 'href');\n						} else if(item.is('img')) {\n							parseEl(item, 'src');\n						} else {\n							parseEl(item);\n						}\n					});\n				} else if(content.is('img')) {\n					content.addClass('rsImg rsMainSlideImage');\n					parseEl(content, 'src');\n				}\n			}\n			tempEl = content.find('.rsCaption');\n			if(tempEl.length) {\n				obj.caption = tempEl.remove();\n			}\n			obj.content = content;\n\n			self.ev.trigger('rsAfterParseNode', [content, obj]);\n			function parseEl(el, s) {\n				if(s) {\n					obj.images.push( el.attr(s) );\n				} else {\n					obj.images.push( el.text() );\n				}\n				if(first) {\n					first = false;\n					obj.caption = (s === 'src') ? el.attr('alt') : el.contents();\n					obj.image = obj.images[0];\n					obj.videoURL = el.attr('data-rsVideo');\n					\n					\n					var wAtt = el.attr('data-rsw'),\n						hAtt = el.attr('data-rsh');\n					if (typeof wAtt !== 'undefined' && wAtt !== false && typeof hAtt !== 'undefined' && hAtt !== false ) {\n						obj.iW = parseInt(wAtt, 10);\n						obj.iH = parseInt(hAtt, 10);\n					} else if(self.st.imgWidth && self.st.imgHeight ) {\n						obj.iW = self.st.imgWidth;\n						obj.iH = self.st.imgHeight;\n					}\n				}\n			}\n			if(pushToSlides) {\n				self.slides.push(obj);\n			}\n			if(obj.images.length === 0) {\n				obj.isLoaded = true;\n				obj.isRendered = false;\n				obj.isLoading = false;\n				obj.images = null;\n			}\n			return obj;\n		},\n		_bindKeyboardNav: function() {\n			var self = this,\n				interval,\n				keyCode,\n				onKeyboardAction = function (keyCode) {\n					if(keyCode === 37) {\n						self.prev();\n					} else if (keyCode === 39) {\n						self.next();\n					}\n				};\n\n			self._doc.on('keydown' + self.ns, function(e) {\n				if(!self._isDragging) {\n					keyCode = e.keyCode;\n					if(keyCode === 37 || keyCode === 39) {\n						if(!interval) {\n							onKeyboardAction(keyCode);\n							interval = setInterval(function() {\n								onKeyboardAction(keyCode);\n							}, 700);\n						}\n					}\n				}\n			}).on('keyup' + self.ns, function(e) {\n				if(interval) {\n					clearInterval(interval); \n					interval = null;\n				}\n			});\n\n			\n			\n		},\n\n\n\n\n		goTo: function(id, notUserAction) {\n			var self = this;\n			if(id !== self.currSlideId) {\n				self._moveTo(id,self.st.transitionSpeed, true, !notUserAction);\n			}\n		},\n		destroy: function(remove) {\n			var self = this;\n			self.ev.trigger('rsBeforeDestroy');\n			self._doc.off('keydown' +self.ns+ ' keyup' + self.ns + ' ' + self._moveEvent +' '+ self._upEvent );\n			self._slidesContainer.off(self._downEvent + ' click');	\n			self.slider.data('royalSlider', null);\n			$.removeData(self.slider, 'royalSlider');\n			$(window).off('resize' + self.ns);\n			if(remove) {\n				self.slider.remove();\n			}\n			self.slides = null;\n			self.slider = null;\n			self.ev = null;\n		},\n		_updateBlocksContent: function(beforeTransition, getId) {\n			var self = this,\n				item,\n				i,\n				n,\n				pref,\n				group,\n				groupId,\n				slideCode,\n				loop = self._loop,\n				numSlides = self.numSlides;\n			if(!isNaN(getId) ) {\n				return getCorrectLoopedId(getId);\n			}\n\n\n			var id = self.currSlideId;\n			var groupOffset;\n			\n			var itemsOnSide = beforeTransition ? (Math.abs(self._prevSlideId - self.currSlideId) >= self.numSlides - 1 ? 0 : 1) : self._numPreloadImages;\n			var itemsToCheck = Math.min(2, itemsOnSide); \n			\n			var updateAfter = false;\n			var updateBefore = false;\n			var tempId;\n\n\n			\n			for(i = id; i < id + 1 + itemsToCheck; i++) {\n				tempId = getCorrectLoopedId(i);\n				item = self.slides[tempId];\n				if(item && (!item.isAdded || !item.positionSet) ) {\n					updateAfter = true;\n					break;\n				}\n			}\n			for(i = id - 1; i > id - 1 - itemsToCheck; i--) {\n				tempId = getCorrectLoopedId(i);\n				item = self.slides[tempId];\n				if(item && (!item.isAdded || !item.positionSet) ) {\n					updateBefore = true;\n					break;\n				}\n			}\n			if(updateAfter) {\n				for(i = id; i < id + itemsOnSide + 1; i++) {\n					tempId = getCorrectLoopedId(i);\n					groupOffset = Math.floor( (self._realId - (id - i)) / self.numSlides) * self.numSlides;\n					item = self.slides[tempId];\n					if(item) {\n						updateItem(item, tempId);	\n					}\n				}\n			}\n			if(updateBefore) {\n				for(i = id - 1; i > id - 1 - itemsOnSide; i--) {\n					tempId = getCorrectLoopedId(i);\n					groupOffset = Math.floor( (self._realId - (id - i) ) / numSlides) * numSlides;\n					item = self.slides[tempId];\n					if(item) {\n						updateItem(item, tempId);\n					}\n				}\n			}\n			if(!beforeTransition) {\n				var start = id;\n				var distance = itemsOnSide;\n				var min = getCorrectLoopedId(id - itemsOnSide);\n				var max = getCorrectLoopedId(id + itemsOnSide);\n				\n				var nmin = min > max ? 0 : min;\n				\n				for (i = 0; i < numSlides; i++) { \n					if(min > max) {\n						if(i > min - 1) {\n							continue;\n						}\n					}\n					if(i < nmin || i > max) {\n						item = self.slides[i];\n						if(item && item.holder) {\n							item.holder.detach();\n							item.isAdded = false;\n						}     \n					}                               \n				}   \n			}\n\n			\n			\n				\n				\n			function updateItem(item , i, slideCode) {\n\n				if(!item.isAdded) {\n					if(!slideCode)\n						slideCode = self.slidesJQ[i];\n\n					if(!item.holder) {\n						slideCode = self.slidesJQ[i] = $(slideCode);\n						item.holder = slideCode;\n					} else {\n						slideCode = item.holder;\n					}\n\n					item.appendOnLoaded = false;\n\n					\n					updatePos(i, item, slideCode);\n					addContent(i, item);\n					self._addBlockToContainer(item, slideCode, beforeTransition);\n					item.isAdded = true;\n				} else {\n					addContent(i, item);\n					updatePos(i, item);\n				}\n			}\n			function addContent(i, item) {\n				if(!item.contentAdded) {\n					self.setItemHtml(item, beforeTransition);\n					if(!beforeTransition) {\n						item.contentAdded = true;\n					}\n					\n				}\n			}\n			function updatePos(i, item, slideCode) {\n				if(self._isMove) {\n					if(!slideCode) {\n						slideCode = self.slidesJQ[i];\n					}\n\n					slideCode.css(self._reorderProp, (i + self._idOffset + groupOffset) * self._slideSize);\n				}\n			}\n			function getCorrectLoopedId(index) {\n				var changed = false;\n				if(loop) {\n					if(index > numSlides - 1) {\n						return getCorrectLoopedId(index - numSlides);\n					} else  if(index < 0) {\n						return getCorrectLoopedId(numSlides + index);\n					}\n				}\n				return index;\n			}\n			\n		},\n\n		/**\n		 * Sets or loads HTML for specified slide\n		 * @param {Object} currSlideObject  holds data about curr slide (read about rsAfterParseNode for more info)\n		 * @param {Boolean} beforeTransition determines if setItemHTML method is called before or after transition\n		 */\n		setItemHtml: function(currSlideObject, beforeTransition) {\n			var self = this;\n\n			var parseDataAndLoad = function() {\n				if(!currSlideObject.images) {\n					currSlideObject.isRendered = true;\n					currSlideObject.isLoaded = true;\n					currSlideObject.isLoading = false;\n					appendContent(true);\n					return;\n				}\n				if(currSlideObject.isLoading) {\n					return;\n				}\n				\n				var el,\n					isRoot;\n				if(currSlideObject.content.hasClass('rsImg') ) {\n					el = currSlideObject.content;\n					isRoot = true;\n				} else {\n					el = currSlideObject.content.find('.rsImg:not(img)');\n				}\n				if(el && !el.is('img')) {\n					el.each(function() {\n						var item = $(this),\n							newEl = '<img class=\"rsImg\" src=\"'+ ( item.is('a') ? item.attr('href') : item.text() ) +'\" />';\n\n						if(!isRoot) {\n							item.replaceWith( newEl );\n						} else {\n							currSlideObject.content = $(newEl);\n						}\n					});\n				}\n				\n				el = isRoot ? currSlideObject.content : currSlideObject.content.find('img.rsImg');\n				setPreloader();\n				\n				el.eq(0).addClass('rsMainSlideImage');\n				if(currSlideObject.iW && currSlideObject.iH) {\n					if(!currSlideObject.isLoaded) {\n						self._resizeImage( currSlideObject );\n					}\n					appendContent();\n				}\n\n				currSlideObject.isLoading = true;\n				var newEl;\n\n				var eNames = 'load.rs error.rs';\n				if(currSlideObject.isBig) {\n					$('<img />').on(eNames, function(e){\n						$(this).off(eNames);\n						onLoad( [this], true );\n					}).attr('src', currSlideObject.image);\n				} else {\n					currSlideObject.loaded = [];\n					currSlideObject.numStartedLoad = 0;\n					var onLoaded = function(e) {\n						$(this).off(eNames);\n						currSlideObject.loaded.push( this );\n						if(currSlideObject.loaded.length === currSlideObject.numStartedLoad) {\n							onLoad( currSlideObject.loaded, false );\n						}\n					};\n					for(var i = 0; i < currSlideObject.images.length; i++) {\n						var image = $('<img />');\n						currSlideObject.numStartedLoad++;\n						image.on('load.rs error.rs', onLoaded).attr('src', currSlideObject.images[i]);\n					}\n				}\n			};\n\n			var onLoad = function($images, isBig) {\n				if($images.length) {\n					var img = $images[0],\n					src = img.src;\n\n					if(isBig !== currSlideObject.isBig) {\n						var c = currSlideObject.holder.children();\n						if(c && c.length > 1) {\n							removePreloader();\n						}\n						return;\n					}\n\n					if(currSlideObject.iW && currSlideObject.iH) {\n						imageLoadingComplete();\n						return;\n					}\n					currSlideObject.iW = img.width;\n					currSlideObject.iH = img.height;\n					if(currSlideObject.iW && currSlideObject.iH) {\n						imageLoadingComplete();\n						return;\n					} else {\n						// if no size, try again\n						var loader = new Image();\n						loader.onload = function() {\n							if(loader.width) {\n								currSlideObject.iW = loader.width;\n								currSlideObject.iH = loader.height;\n								imageLoadingComplete();\n							} else {\n								setTimeout(function() {\n									if(loader.width) {\n										currSlideObject.iW = loader.width;\n										currSlideObject.iH = loader.height;\n									}\n\n									// failed to get size on last tier, just output image\n									imageLoadingComplete();\n								}, 1000);\n							}\n						};\n						loader.src = img.src;\n					}\n				} else {\n					imageLoadingComplete();\n				}\n			};\n\n			var imageLoadingComplete = function () {\n				currSlideObject.isLoaded = true;\n				currSlideObject.isLoading = false;\n\n				appendContent();\n				removePreloader();\n				triggerLoaded();\n			};\n\n			var waitForTransition = function () {\n				if(!self._isMove && currSlideObject.images && currSlideObject.iW && currSlideObject.iH) {\n					parseDataAndLoad();\n					return;\n				}\n				currSlideObject.holder.isWaiting = true;\n				setPreloader();\n				currSlideObject.holder.slideId = -99;\n			};\n			\n			var appendContent = function() {\n				if(!currSlideObject.isAppended && self.ev) {\n\n					var visibleNearby = self.st.visibleNearby,\n					bId = currSlideObject.id - self._newSlideId;\n					if(!beforeTransition && !currSlideObject.appendOnLoaded && self.st.fadeinLoadedSlide  && ( bId === 0 || ( (visibleNearby || self._isAnimating || self._isDragging) && (bId === -1 || bId === 1) ) ) ) {\n						var css = {\n							visibility: 'visible', \n							opacity: 0\n						};\n						css[self._vendorPref + 'transition'] = 'opacity 400ms ease-in-out';\n						currSlideObject.content.css(css);\n\n						setTimeout(function() {\n							currSlideObject.content.css('opacity', 1);\n						}, 16);\n					}\n\n					if(currSlideObject.holder.find('.rsPreloader').length) {\n						currSlideObject.holder.append( currSlideObject.content );\n					} else {\n						currSlideObject.holder.html( currSlideObject.content );\n					}\n					\n\n					currSlideObject.isAppended = true;\n					if(currSlideObject.isLoaded) {\n						self._resizeImage(currSlideObject);\n						triggerLoaded();\n					}\n					if(!currSlideObject.sizeReady) {\n						currSlideObject.sizeReady = true;\n						setTimeout(function() {\n							// triggers after content is added, usually is true when page is refreshed from cache\n							self.ev.trigger('rsMaybeSizeReady', currSlideObject);\n						}, 100);\n					}\n					\n				}\n			};\n			var triggerLoaded = function () {\n				if(!currSlideObject.loadedTriggered && self.ev) {\n					currSlideObject.isLoaded = currSlideObject.loadedTriggered = true;\n					currSlideObject.holder.trigger('rsAfterContentSet');\n					self.ev.trigger('rsAfterContentSet', currSlideObject);\n				}\n			};\n			var setPreloader = function () {\n				if(self.st.usePreloader)\n					currSlideObject.holder.html(self._preloader.clone());\n			};\n			var removePreloader = function (now) {\n				if(self.st.usePreloader) {\n					var preloader = currSlideObject.holder.find('.rsPreloader');\n					if(preloader.length) {\n						preloader.remove();\n					}\n				}\n			};\n\n			if(currSlideObject.isLoaded) {\n				appendContent();\n				return;\n			} else {\n				if(beforeTransition) {\n					waitForTransition();\n				} else {\n					parseDataAndLoad();\n				}\n			}\n\n		},\n		_addBlockToContainer: function(slideObject, content, dontFade) {\n			var self = this;\n			var holder = slideObject.holder;\n			var bId = slideObject.id - self._newSlideId;\n			var visibleNearby = false;\n\n			self._slidesContainer.append(holder);\n			slideObject.appendOnLoaded = false;\n		},\n	\n		_onDragStart:function(e, isThumbs) {\n			var self = this,\n				point,\n				wasAnimating,\n				isTouch = (e.type === 'touchstart');\n\n\n			self._isTouchGesture = isTouch;	\n\n			self.ev.trigger('rsDragStart');\n			if($(e.target).closest('.rsNoDrag', self._currHolder).length) {\n				self.dragSuccess = false;\n				return true;\n			}\n\n\n			if(!isThumbs) {\n				if(self._isAnimating) {\n					self._wasAnimating = true;\n\n					self._stopAnimation();\n				}\n			}\n			self.dragSuccess = false;\n			if(self._isDragging) {\n				if(isTouch) {\n					self._multipleTouches = true;\n				}\n				return;\n			} else {\n				if(isTouch) {\n					self._multipleTouches = false;\n				}\n			}\n\n			self._setGrabbingCursor();\n			\n			if(isTouch) {\n				//parsing touch event\n				var touches = e.originalEvent.touches;\n				if(touches && touches.length > 0) {\n					point = touches[0];\n					if(touches.length > 1) {\n						self._multipleTouches = true;\n					}\n				}					\n				else {	\n					return;						\n				}\n			} else {\n				e.preventDefault();				\n				point = e;\n				if(self.msEnabled) point = point.originalEvent;		\n			}\n\n			self._isDragging = true;\n			self._doc.on(self._moveEvent, function(e) { self._onDragMove(e, isThumbs); })\n						.on(self._upEvent, function(e) { self._onDragRelease(e, isThumbs); });\n			\n			self._currMoveAxis = '';\n			self._hasMoved = false;\n			self._pageX = point.pageX;\n			self._pageY = point.pageY;\n			self._startPagePos = self._accelerationPos = (!isThumbs ? self._slidesHorizontal : self._thumbsHorizontal) ? point.pageX : point.pageY;\n			\n			self._horDir = 0;\n			self._verDir = 0;\n\n			self._currRenderPosition = !isThumbs ? self._sPosition : self._thumbsPosition;\n\n			self._startTime = new Date().getTime();\n			if(isTouch) {\n				self._sliderOverflow.on(self._cancelEvent, function(e) { self._onDragRelease(e, isThumbs); });	\n			}\n		},\n		_renderMovement:function(point, isThumbs) {\n			var self = this;\n			if(self._checkedAxis) {\n\n				var timeStamp = self._renderMoveTime,\n					deltaX = point.pageX - self._pageX,\n					deltaY = point.pageY - self._pageY,\n					newX = self._currRenderPosition + deltaX,\n					newY = self._currRenderPosition + deltaY,\n					isHorizontal = (!isThumbs ? self._slidesHorizontal : self._thumbsHorizontal),\n					newPos = isHorizontal ? newX : newY,\n					mAxis = self._currMoveAxis;\n\n				self._hasMoved = true;\n				self._pageX = point.pageX;\n				self._pageY = point.pageY;\n\n				if(mAxis === 'x' && deltaX !== 0) {\n					self._horDir = deltaX > 0 ? 1 : -1;\n				} else if(mAxis === 'y' && deltaY !== 0) {\n					self._verDir = deltaY > 0 ? 1 : -1;\n				}\n\n				var pointPos = isHorizontal ? self._pageX : self._pageY,\n					deltaPos = isHorizontal ? deltaX : deltaY;\n				if(!isThumbs) {\n					if(!self._loop) {\n						if(self.currSlideId <= 0) {\n							if(pointPos - self._startPagePos > 0) {\n								newPos = self._currRenderPosition + deltaPos * self._lastItemFriction;\n							}\n						}\n						if(self.currSlideId >= self.numSlides - 1) {\n							if(pointPos - self._startPagePos < 0) {\n								newPos = self._currRenderPosition + deltaPos * self._lastItemFriction ;\n							}\n						}\n					}\n				} else {\n					if(newPos > self._thumbsMinPosition) {\n						newPos = self._currRenderPosition + deltaPos * self._lastItemFriction;\n					} else if(newPos < self._thumbsMaxPosition) {\n						newPos = self._currRenderPosition + deltaPos * self._lastItemFriction ;\n					}\n				}\n\n				self._currRenderPosition = newPos;\n				\n				if (timeStamp - self._startTime > 200) {\n					self._startTime = timeStamp;\n					self._accelerationPos = pointPos;						\n				}\n\n				if(!isThumbs) {\n					if(self._isMove) {\n						self._setPosition(self._currRenderPosition);\n					}\n				} else {\n					self._setThumbsPosition(self._currRenderPosition);\n				}\n			}\n			\n		},\n		_onDragMove:function(e, isThumbs) {\n			var self = this,\n				point,\n				isTouch = (e.type === 'touchmove');\n\n			if(self._isTouchGesture && !isTouch) {\n				return;\n			}\n\n			if(isTouch) {\n				if(self._lockAxis) {\n					return;\n				}	\n				var touches = e.originalEvent.touches;\n				if(touches) {\n					if(touches.length > 1) {\n						return;\n					} else {\n						point = touches[0];	\n					}\n				} else {\n					return;\n				}\n			} else {\n				point = e;\n				if(self.msEnabled) point = point.originalEvent;	\n			}\n			\n\n			if(!self._hasMoved) {\n				if(self._useCSS3Transitions) {\n					(!isThumbs ? self._slidesContainer : self._thumbsContainer).css((self._vendorPref + self._TD), '0s');\n				}\n				(function animloop(){\n					if(self._isDragging) {\n						self._animFrame = requestAnimationFrame(animloop);\n						if(self._renderMoveEvent)\n							self._renderMovement(self._renderMoveEvent, isThumbs);\n					}\n					\n				})();\n			}\n				\n			if(!self._checkedAxis) {\n				\n				var dir = (!isThumbs ? self._slidesHorizontal : self._thumbsHorizontal),\n					diff = (Math.abs(point.pageX - self._pageX) - Math.abs(point.pageY - self._pageY) ) - (dir ? -7 : 7);\n\n				if(diff > 7) {\n					// hor movement\n					if(dir) {\n						e.preventDefault();\n						self._currMoveAxis = 'x';\n					} else if(isTouch) {\n						self._completeGesture();\n						return;\n					} \n					self._checkedAxis = true;\n				} else if(diff < -7) {\n					// ver movement\n					if(!dir) {\n						e.preventDefault();\n						self._currMoveAxis = 'y';\n					} else if(isTouch) {\n						self._completeGesture();\n						return;\n					} \n					self._checkedAxis = true;\n				}\n				return;\n			}\n			\n			e.preventDefault();	\n			self._renderMoveTime = new Date().getTime();\n			self._renderMoveEvent = point;\n		},\n		_completeGesture: function() {\n			var self = this;\n			self._lockAxis = true;\n			self._hasMoved = self._isDragging = false;\n			self._onDragRelease();\n		},\n		_onDragRelease:function(e, isThumbs) {\n			var self = this,\n				totalMoveDist,\n				accDist,\n				duration,\n				v0,\n				newPos,\n				newDist,\n				newDuration,\n				blockLink,\n				isTouch = (e.type === 'touchend' || e.type === 'touchcancel');\n\n\n			if(self._isTouchGesture && !isTouch) {\n				return;\n			}\n			self._isTouchGesture = false;\n			self.ev.trigger('rsDragRelease');\n\n			self._renderMoveEvent = null;\n			self._isDragging = false;\n			self._lockAxis = false;\n			self._checkedAxis = false;\n			self._renderMoveTime = 0;\n			cancelAnimationFrame(self._animFrame);\n			if(self._hasMoved) {\n				if(!isThumbs) {\n					if(self._isMove) {\n						self._setPosition(self._currRenderPosition);\n					}\n				} else {\n					self._setThumbsPosition(self._currRenderPosition);\n				}\n			}\n\n\n			self._doc.off(self._moveEvent).off(self._upEvent);\n\n			if(isTouch) {\n				self._sliderOverflow.off(self._cancelEvent);	\n			}\n\n			\n			self._setGrabCursor();\n			if (!self._hasMoved && !self._multipleTouches) {\n				if(isThumbs && self._thumbsEnabled) {\n					var item = $(e.target).closest('.rsNavItem');\n					if(item.length) {\n						self.goTo(item.index());\n					}	\n					return;\n				}\n			}\n			var orient = (!isThumbs ? self._slidesHorizontal : self._thumbsHorizontal);\n			if(!self._hasMoved || (self._currMoveAxis === 'y' && orient) || (self._currMoveAxis === 'x' && !orient) ) {\n				if(!isThumbs && self._wasAnimating) {\n					self._wasAnimating = false;\n					if(!self.st.navigateByClick) {\n						self.dragSuccess = true;\n					} else {\n						self._mouseNext( (self.msEnabled ? e.originalEvent : e) );\n						self.dragSuccess = true;\n						return;\n					}\n				} else {\n					self._wasAnimating = false;\n					self.dragSuccess = false;\n					return;\n				}\n				\n			} else {\n				self.dragSuccess = true;\n			}\n\n			self._wasAnimating = false;\n			\n			\n			self._currMoveAxis = '';\n\n			\n			function getCorrectSpeed(newSpeed) {\n				if(newSpeed < 100) {\n					return 100;\n				} else if(newSpeed > 500) {\n					return 500;\n				} \n				return newSpeed;\n			}\n			function returnToCurrent(isSlow, v0) {\n				if(self._isMove || isThumbs) {\n\n					newPos = (-self._realId - self._idOffset) * self._slideSize;\n					newDist = Math.abs(self._sPosition  - newPos);\n					self._currAnimSpeed = newDist / v0;\n					if(isSlow) {\n						self._currAnimSpeed += 250; \n					}\n					self._currAnimSpeed = getCorrectSpeed(self._currAnimSpeed);\n\n					self._animateTo(newPos, false);\n				}\n			}\n\n			var snapDist = self.st.minSlideOffset,\n				point = isTouch ? e.originalEvent.changedTouches[0] : (self.msEnabled ? e.originalEvent : e),\n				pPos = orient ? point.pageX : point.pageY,\n				sPos = self._startPagePos,\n				axPos = self._accelerationPos,\n				axCurrItem = self.currSlideId,\n				axNumItems = self.numSlides,\n				dir = orient ? self._horDir : self._verDir,\n				loop = self._loop,\n				changeHash = false,\n				distOffset = 0;\n			\n			totalMoveDist = Math.abs(pPos - sPos);\n			accDist = pPos - axPos;\n\n\n			duration = (new Date().getTime()) - self._startTime;\n			v0 = Math.abs(accDist) / duration;	\n\n			if(dir === 0 || axNumItems <= 1) {\n				returnToCurrent(true, v0);\n				return;\n			}\n\n			if(!loop && !isThumbs) {\n				if(axCurrItem <= 0) {\n					if(dir > 0) {\n						returnToCurrent(true, v0);\n						return;\n					}\n				} else if(axCurrItem >= axNumItems - 1) {\n					if(dir < 0) {\n						returnToCurrent(true, v0);\n						return;\n					}\n				}\n			}\n\n			if(!isThumbs) {\n				if(sPos + snapDist < pPos) {\n					if(dir < 0) {		\n						returnToCurrent(false, v0);\n						return;					\n					}\n					self._moveTo('prev', getCorrectSpeed(Math.abs(self._sPosition  - (-self._realId - self._idOffset + 1) * self._slideSize) / v0), changeHash, true, true);\n				} else if(sPos - snapDist > pPos) {\n					if(dir > 0) {		\n						returnToCurrent(false, v0);\n						return;					\n					}\n					self._moveTo('next', getCorrectSpeed(Math.abs(self._sPosition  - (-self._realId - self._idOffset - 1) * self._slideSize) / v0), changeHash, true, true);\n				} else {\n					returnToCurrent(false, v0);\n				}\n			} else {\n				newPos = self._thumbsPosition;\n				var transitionSpeed;\n				\n				if(newPos > self._thumbsMinPosition) {\n					newPos = self._thumbsMinPosition;\n				} else if(newPos < self._thumbsMaxPosition) {\n					newPos = self._thumbsMaxPosition;\n				} else {\n					var friction = 0.003,\n						S = (v0 * v0) / (friction * 2),\n						minXDist = -self._thumbsPosition,\n						maxXDist = self._thumbsContainerSize - self._thumbsViewportSize + self._thumbsPosition;\n\n					if (accDist > 0 && S > minXDist) {\n						minXDist = minXDist + self._thumbsViewportSize / (15 / (S / v0 * friction));\n						v0 = v0 * minXDist / S;\n						S = minXDist;\n					} else if (accDist < 0 && S > maxXDist) {\n						maxXDist = maxXDist + self._thumbsViewportSize / (15 / (S / v0 * friction));\n						v0 = v0 * maxXDist / S;\n						S = maxXDist;\n					}\n\n\n\n\n					transitionSpeed =  Math.max(Math.round(v0 / friction), 50);\n					newPos = newPos + S * (accDist < 0 ? -1 : 1);\n\n\n					if(newPos > self._thumbsMinPosition) {\n						self._animateThumbsTo(newPos, transitionSpeed, true, self._thumbsMinPosition, 200);\n						return;\n					} else if(newPos < self._thumbsMaxPosition) {\n						self._animateThumbsTo( newPos, transitionSpeed, true, self._thumbsMaxPosition, 200);\n						return;\n					}\n				}\n\n				self._animateThumbsTo(newPos, transitionSpeed, true);\n\n			}\n		},\n		_setPosition: function(pos) {\n			var self = this;\n			pos = self._sPosition = pos;\n			if(self._useCSS3Transitions) {\n				self._slidesContainer.css(self._xProp, self._tPref1 + ( self._slidesHorizontal ? (pos + self._tPref2 + 0) : (0 + self._tPref2 + pos) ) + self._tPref3 );		\n			} else {\n				self._slidesContainer.css(self._slidesHorizontal ? self._xProp : self._yProp, pos);\n			}\n		},\n		\n		\n		updateSliderSize: function(force) {\n			var self = this,\n				newWidth,\n				newHeight;\n\n			if(self.st.autoScaleSlider) {\n				var asw = self.st.autoScaleSliderWidth,\n					ash = self.st.autoScaleSliderHeight;\n\n				if(self.st.autoScaleHeight) {\n					newWidth = self.slider.width();\n					if(newWidth != self.width) {\n						self.slider.css(\"height\", newWidth * (ash / asw) );\n						newWidth = self.slider.width();\n					}	\n					newHeight = self.slider.height();\n				} else {\n					newHeight = self.slider.height();\n					if(newHeight != self.height) {\n						self.slider.css(\"width\", newHeight * (asw / ash));\n						newHeight = self.slider.height();\n					}		\n					newWidth = self.slider.width();\n				}\n			\n			} else {\n				newWidth = self.slider.width();\n				newHeight = self.slider.height();\n			}\n			\n\n\n			if(force || newWidth != self.width || newHeight != self.height) {\n				self.width = newWidth;\n				self.height = newHeight;\n\n				self._wrapWidth = newWidth;\n				self._wrapHeight = newHeight;\n\n				self.ev.trigger('rsBeforeSizeSet');\n				self.ev.trigger('rsAfterSizePropSet');\n\n				self._sliderOverflow.css({\n					width: self._wrapWidth,\n					height: self._wrapHeight\n				});\n\n\n				self._slideSize = (self._slidesHorizontal ? self._wrapWidth : self._wrapHeight) + self.st.slidesSpacing;\n				\n\n				self._imagePadding = self.st.imageScalePadding;\n				var item,\n					slideItem,\n					i,\n					img;\n				for(i = 0; i < self.slides.length; i++) {\n					item = self.slides[i];\n					item.positionSet = false;\n\n					if(item && item.images && item.isLoaded) {\n						item.isRendered = false;\n						self._resizeImage(item);\n					} \n				}\n				if(self._cloneHolders) {\n					for(i = 0; i < self._cloneHolders.length; i++) {\n						item = self._cloneHolders[i];\n						item.holder.css(self._reorderProp, (item.id + self._idOffset) * self._slideSize);\n					}\n				}\n				\n				self._updateBlocksContent();\n\n				if(self._isMove) {\n					if(self._useCSS3Transitions) {\n						self._slidesContainer.css(self._vendorPref + 'transition-duration', '0s');\n					}\n					self._setPosition( (-self._realId - self._idOffset) * self._slideSize);\n				}\n				self.ev.trigger('rsOnUpdateNav');\n			}\n			self._sliderOffset = self._sliderOverflow.offset();\n			self._sliderOffset = self._sliderOffset[self._reorderProp];\n\n\n		},\n		\n		/**\n		 * Adds slide\n		 * @param  {jQuery object or raw HTML} htmltext \n		 * @param  {int} index    (optional) Index where item should be added (last item is removed of not specified)\n		 */\n		appendSlide: function(htmltext, index) {\n			var self = this,\n				parsedSlide = self._parseNode(htmltext);\n\n			if(isNaN(index) || index > self.numSlides) {\n				index = self.numSlides;\n			}\n			self.slides.splice(index, 0, parsedSlide);\n			self.slidesJQ.splice(index, 0, '<div style=\"'+ (self._isMove ? 'position:absolute;' : self._opacityCSS ) +'\" class=\"rsSlide\"></div>');\n\n			if(index < self.currSlideId) {\n				self.currSlideId++;\n			}\n			self.ev.trigger('rsOnAppendSlide', [parsedSlide, index]);\n			\n			self._refreshSlides(index);\n\n			if(index === self.currSlideId) {\n				self.ev.trigger('rsAfterSlideChange');\n			}\n		},\n\n		/**\n		 * Removes slide\n		 * @param  {int} Index of item that should be removed\n		 */\n		removeSlide: function(index) {\n			var self = this,\n				slideToRemove = self.slides[index];\n\n			if(slideToRemove) {\n				if(slideToRemove.holder) {\n					slideToRemove.holder.remove();\n				}\n				if(index < self.currSlideId) {\n					self.currSlideId--;\n				}\n				self.slides.splice(index, 1);\n				self.slidesJQ.splice(index, 1);\n\n				self.ev.trigger('rsOnRemoveSlide', [index]);\n				self._refreshSlides(index);\n\n				if(index === self.currSlideId) {\n					self.ev.trigger('rsAfterSlideChange');\n				}\n			}\n		},\n		_refreshSlides: function(refreshIndex) {\n\n			// todo: optimize this stuff\n			var self = this;\n\n			var oldNumSlides = self.numSlides;\n			var numLoops = self._realId <= 0 ? 0 : Math.floor(self._realId / oldNumSlides);\n\n			self.numSlides = self.slides.length;\n			if(self.numSlides === 0) {\n				self.currSlideId = self._idOffset = self._realId = 0;\n				self.currSlide = self._oldHolder = null;\n			} else {\n				self._realId = numLoops * self.numSlides + self.currSlideId;\n			}\n\n			for(var i = 0; i < self.numSlides; i++) {\n				self.slides[i].id = i;\n			}\n\n			self.currSlide = self.slides[self.currSlideId];\n			self._currHolder = self.slidesJQ[self.currSlideId];\n\n			if(self.currSlideId >= self.numSlides) {\n				self.goTo(self.numSlides - 1);\n			} else if(self.currSlideId < 0) {\n				self.goTo(0);\n			}\n\n			self._refreshNumPreloadImages();\n\n			if(self._isMove && self._loop) {\n				self._slidesContainer.css((self._vendorPref + self._TD), '0ms');\n			}\n			if(self._refreshSlidesTimeout) {\n				clearTimeout(self._refreshSlidesTimeout);\n			}\n\n\n			self._refreshSlidesTimeout = setTimeout(function() {\n				if(self._isMove) {\n					self._setPosition( (-self._realId - self._idOffset) * self._slideSize);	\n				}\n				self._updateBlocksContent();\n				if(!self._isMove) {\n					self._currHolder.css({\n						display: 'block',\n						opacity: 1\n					});\n				}\n				\n			}, 14);\n			self.ev.trigger('rsOnUpdateNav');\n		},\n		_setGrabCursor:function() {	\n			var self = this;\n			if(self._hasDrag && self._isMove) {\n				if(self._grabCursor) {\n					self._sliderOverflow.css('cursor', self._grabCursor);\n				} else {\n					self._sliderOverflow.removeClass('grabbing-cursor');\n					self._sliderOverflow.addClass('grab-cursor');	\n				}\n			}\n		},\n		_setGrabbingCursor:function() {		\n			var self = this;\n			if(self._hasDrag && self._isMove) {\n				if(self._grabbingCursor) {\n					self._sliderOverflow.css('cursor', self._grabbingCursor);\n				} else {\n					self._sliderOverflow.removeClass('grab-cursor');\n					self._sliderOverflow.addClass('grabbing-cursor');	\n				}	\n			}\n		},\n		next: function(notUserAction) {\n			var self = this;\n			self._moveTo('next',  self.st.transitionSpeed, true, !notUserAction);\n		},\n		prev: function(notUserAction) {\n			var self = this;\n			self._moveTo('prev', self.st.transitionSpeed, true, !notUserAction);\n		},\n		_moveTo:function(type,  speed, inOutEasing, userAction, fromSwipe) {\n			var self = this,\n				newPos,\n				difference,\n				i,\n				newItemId;\n			\n			\n			self.ev.trigger('rsBeforeMove', [type, userAction]);\n			if(type === 'next') {\n				newItemId = self.currSlideId+1;\n			} else if(type === 'prev') {\n				newItemId = self.currSlideId-1;\n			} else {\n				newItemId = type = parseInt(type, 10);\n			}\n\n			if(!self._loop) {\n				if(newItemId < 0) {\n					self._doBackAndForthAnim('left', !userAction);\n					return;\n				} else if(newItemId >= self.numSlides ) {\n					self._doBackAndForthAnim('right', !userAction);\n					return;\n				}\n			}\n			\n			if(self._isAnimating) {\n				self._stopAnimation(true);\n				inOutEasing = false;\n			}\n\n			difference = newItemId - self.currSlideId;\n\n\n\n			self._prevSlideId = self.currSlideId;\n			var prevId = self.currSlideId;\n			var id = self.currSlideId + difference;\n			var realId = self._realId;\n			var temp;\n			var delayed;\n			if(self._loop) {\n				id = self._updateBlocksContent(false, id);\n				realId += difference;\n			} else {\n				realId = id;\n			}\n			self._newSlideId = id;\n\n			self._oldHolder = self.slidesJQ[self.currSlideId];\n\n			\n			self._realId = realId;\n			self.currSlideId = self._newSlideId;\n\n			self.currSlide = self.slides[self.currSlideId];\n			self._currHolder = self.slidesJQ[self.currSlideId];\n\n			\n			var checkDist = self.st.slidesDiff;\n			var next = Boolean(difference > 0);\n			var absDiff = Math.abs(difference);\n			var g1 = Math.floor( prevId / self._numPreloadImages);\n			var g2 = Math.floor( ( prevId + (next ? checkDist : -checkDist  ) ) / self._numPreloadImages);\n			var biggest = next ? Math.max(g1,g2) : Math.min(g1,g2);\n			var biggestId = biggest * self._numPreloadImages +  ( next ? (self._numPreloadImages - 1) : 0 );\n			if(biggestId > self.numSlides - 1) {\n				biggestId = self.numSlides - 1;\n			} else if(biggestId < 0) {\n				biggestId = 0;\n			}\n			var toLast =  next ? (biggestId - prevId) :  (prevId - biggestId);\n			if(toLast > self._numPreloadImages) {\n				toLast = self._numPreloadImages;\n			}\n			if(absDiff > toLast + checkDist) {\n				self._idOffset +=  ( absDiff - (toLast + checkDist) ) * ( next ? -1 : 1 );\n				speed = speed * 1.4;\n				for(i = 0; i < self.numSlides; i++) {\n					self.slides[i].positionSet = false;\n				}\n			}\n			self._currAnimSpeed = speed;\n\n			self._updateBlocksContent(true);\n			if(!fromSwipe) {\n				delayed = true;\n			}\n\n\n			newPos = (-realId - self._idOffset) * self._slideSize;\n\n			\n\n			if(delayed) {\n				setTimeout(function() {\n					self._isWorking = false;\n					self._animateTo(newPos, type, false, inOutEasing);\n					self.ev.trigger('rsOnUpdateNav');\n				}, 0);\n			} else {\n				self._animateTo(newPos, type, false, inOutEasing);\n				self.ev.trigger('rsOnUpdateNav');\n			}\n			\n			\n			function isSetToCurrent(testId) {\n				if(testId < 0) {\n					testId = self.numSlides + testId;\n				} else if(testId > self.numSlides - 1) {\n					testId = testId - self.numSlides;\n				}\n				if(testId !== self.currSlideId) {\n					return false;\n				}\n				return true;\n			}\n			\n		},\n		_updateArrowsNav: function() {\n			var self = this,\n				arrDisClass = 'rsArrowDisabled';\n			if(self.st.arrowsNav) {\n				if(self.numSlides <= 1) {\n					self._arrowLeft.css('display', 'none');\n					self._arrowRight.css('display', 'none');\n					return;\n				} else {\n					self._arrowLeft.css('display', 'block');\n					self._arrowRight.css('display', 'block');\n				}\n				if(!self._loop && !self.st.loopRewind) {\n					if(self.currSlideId === 0) {\n						self._arrowLeft.addClass(arrDisClass);\n					} else {\n						self._arrowLeft.removeClass(arrDisClass);\n					}\n					if(self.currSlideId === self.numSlides - 1) {\n						self._arrowRight.addClass(arrDisClass);\n					} else {\n						self._arrowRight.removeClass(arrDisClass);\n					}\n				}\n			}\n		},\n		_animateTo:function(pos, dir,  loadAll, inOutEasing, customComplete) {\n			var self = this,\n				moveProp,\n				oldBlock,\n				animBlock;\n\n			var animObj = {};\n			if(isNaN(self._currAnimSpeed)) {\n				self._currAnimSpeed = 400;\n			} \n			\n\n\n			self._sPosition = self._currRenderPosition = pos;\n\n			self.ev.trigger('rsBeforeAnimStart');\n\n			if(!self._useCSS3Transitions) {\n				if(self._isMove) {\n					animObj[self._slidesHorizontal ? self._xProp : self._yProp] = pos + 'px';\n\n\n					self._slidesContainer.animate(animObj, self._currAnimSpeed, /*'easeOutQuart'*/ inOutEasing ? self.st.easeInOut : self.st.easeOut);\n				} else {\n					oldBlock = self._oldHolder;\n					animBlock = self._currHolder;					\n\n					animBlock.stop(true, true).css({\n						opacity: 0,\n						display: 'block',\n						zIndex: self._fadeZIndex\n					});\n					self._currAnimSpeed = self.st.transitionSpeed;\n					animBlock.animate({opacity: 1}, self._currAnimSpeed, self.st.easeInOut);\n\n					\n					clearTimeouts();\n					if(oldBlock) {\n						oldBlock.data('rsTimeout', setTimeout(function() {\n							oldBlock.stop(true, true).css({\n								opacity: 0,\n								display: 'none',\n								zIndex: 0\n							});\n						}, self._currAnimSpeed + 60) );\n					}\n				}\n				\n			} else {\n				if(self._isMove) {\n					\n					\n\n						self._currAnimSpeed = parseInt(self._currAnimSpeed, 10);\n						var td = self._vendorPref + self._TD;\n						var ttf = self._vendorPref + self._TTF;\n\n						animObj[td] = self._currAnimSpeed+'ms';\n						animObj[ttf] = inOutEasing ? $.rsCSS3Easing[self.st.easeInOut] : $.rsCSS3Easing[self.st.easeOut];\n						\n						self._slidesContainer.css(animObj);\n					if(inOutEasing || !self.hasTouch) {\n						setTimeout(function() {\n							self._setPosition(pos);\n						}, 5);\n					} else {\n						self._setPosition(pos);\n					} \n					\n					\n\n				} else {\n					//self._currAnimSpeed = 10\n					self._currAnimSpeed = self.st.transitionSpeed;\n					oldBlock = self._oldHolder;\n					animBlock = self._currHolder;		\n					if(animBlock.data('rsTimeout')) {\n						animBlock.css('opacity', 0);\n					}\n					clearTimeouts();\n					if(oldBlock) {\n						//if(oldBlock)\n						oldBlock.data('rsTimeout', setTimeout(function() {\n							animObj[self._vendorPref + self._TD] = '0ms';\n							animObj.zIndex = 0;\n							animObj.display = 'none';\n							oldBlock.data('rsTimeout', '');\n							oldBlock.css(animObj);\n							setTimeout(function() {\n								oldBlock.css('opacity', 0);\n							}, 16);\n						}, self._currAnimSpeed + 60) );\n					}\n\n					animObj.display = 'block';\n					animObj.zIndex = self._fadeZIndex;\n					animObj.opacity = 0;\n					animObj[self._vendorPref + self._TD] = '0ms';\n					animObj[self._vendorPref + self._TTF] = $.rsCSS3Easing[self.st.easeInOut];\n					animBlock.css(animObj);\n					animBlock.data('rsTimeout', setTimeout(function() {\n						//animBlock.css('opacity', 0);\n						animBlock.css(self._vendorPref + self._TD,  self._currAnimSpeed+'ms');\n\n						//oldBlock.css(self._vendorPref + self._TD,  '0ms');\n						animBlock.data('rsTimeout', setTimeout(function() {\n							animBlock.css('opacity', 1);\n							animBlock.data('rsTimeout', '');\n						}, 20) );\n					}, 20) );\n				}\n			}\n			self._isAnimating = true;\n			if(self.loadingTimeout) {\n				clearTimeout(self.loadingTimeout);\n			}\n			if(customComplete) {\n				self.loadingTimeout = setTimeout(function() {\n					self.loadingTimeout = null;\n					customComplete.call();\n\n				}, self._currAnimSpeed + 60);\n			} else {\n				self.loadingTimeout = setTimeout(function() {\n					self.loadingTimeout = null;\n					self._animationComplete(dir);\n				}, self._currAnimSpeed + 60);\n			}\n\n			function clearTimeouts() {\n				var t;\n				if(oldBlock) {\n					t = oldBlock.data('rsTimeout');\n					if(t) {\n						if(oldBlock !== animBlock) {\n							oldBlock.css({\n									opacity: 0,\n									display: 'none',\n									zIndex: 0\n								});\n						}\n						clearTimeout(t);\n						oldBlock.data('rsTimeout', '');\n					}\n				}\n				\n				t = animBlock.data('rsTimeout');\n				if(t) {\n					clearTimeout(t);\n					animBlock.data('rsTimeout', '');\n				}\n			}\n		},\n		_stopAnimation: function(noCSS3) {\n			var self = this;\n			self._isAnimating = false;\n			clearTimeout(self.loadingTimeout);\n			if(self._isMove) {\n\n				if(!self._useCSS3Transitions) {\n					self._slidesContainer.stop(true);\n					self._sPosition = parseInt(self._slidesContainer.css(self._xProp), 10);\n				} else if (!noCSS3) {\n					var oldPos = self._sPosition;\n					var newPos =  self._currRenderPosition = self._getTransformProp();\n					self._slidesContainer.css((self._vendorPref + self._TD), '0ms');\n					if(oldPos !==newPos) {\n						self._setPosition(newPos);\n					}\n				}\n			} else {\n				// kung fu\n				if(self._fadeZIndex > 20) {\n					self._fadeZIndex = 10;\n				} else {\n					self._fadeZIndex++;\n				}\n			}\n			\n			\n		},\n		// Thanks to @benpbarnett\n		_getTransformProp:function(){\n			var self = this,\n				transform = window.getComputedStyle(self._slidesContainer.get(0), null).getPropertyValue(self._vendorPref + 'transform'),			\n				explodedMatrix = transform.replace(/^matrix\\(/i, '').split(/, |\\)$/g),\n				isMatrix3d = (explodedMatrix[0].indexOf('matrix3d') === 0);\n			return parseInt(explodedMatrix[(self._slidesHorizontal ? (isMatrix3d ? 12 : 4) : (isMatrix3d ? 13 : 5) )], 10);\n		},\n		_getCSS3Prop: function(pos, hor) {\n			var self = this;\n			return self._useCSS3Transitions ? self._tPref1 + ( hor ? (pos + self._tPref2 + 0) : (0 + self._tPref2 + pos) ) + self._tPref3 : pos;\n		},\n		_animationComplete: function(dir) {\n			var self = this;\n			if(!self._isMove) {\n				self._currHolder.css('z-index', 0);\n				self._fadeZIndex = 10;\n			}\n			self._isAnimating = false;\n			\n			self.staticSlideId = self.currSlideId;\n			self._updateBlocksContent();\n\n\n			self._slidesMoved = false;\n			\n			self.ev.trigger('rsAfterSlideChange');\n		},\n		_doBackAndForthAnim:function(type, userAction) {\n			var self = this,\n				newPos = (-self._realId - self._idOffset) * self._slideSize;\n\n			if(self.numSlides === 0 || self._isAnimating) {\n				return;\n			} \n			if(self.st.loopRewind) {\n				self.goTo(type === 'left' ? self.numSlides - 1 : 0, userAction);\n				return;\n			}\n\n			if(self._isMove) {\n				self._currAnimSpeed = 200;\n\n				var allAnimComplete = function () {\n					self._isAnimating = false;\n				};\n				var firstAnimComplete = function () {\n					self._isAnimating = false;\n					self._animateTo(newPos, '', false, true, allAnimComplete);\n				};\n				self._animateTo(newPos + (type === 'left' ? 30 : -30),'', false, true, firstAnimComplete);\n			}\n			\n		},\n		_resizeImage:function(slideObject, useClone) {\n\n			var isRoot = true;\n			if(slideObject.isRendered) {\n				return;\n			}\n			var img = slideObject.content;\n			var classToFind = 'rsMainSlideImage';\n			var isVideo;\n			var self = this,\n				imgAlignCenter = self.st.imageAlignCenter,\n				imgScaleMode = self.st.imageScaleMode,\n				tempEl,\n				bMargin;\n\n			if(slideObject.videoURL) {\n				classToFind = 'rsVideoContainer';\n				if(imgScaleMode !== 'fill') {\n					isVideo = true;\n				} else {\n					tempEl = img;\n					if(!tempEl.hasClass(classToFind)) {\n						tempEl = tempEl.find('.'+classToFind);\n					}\n					tempEl.css({width:'100%',height: '100%'});\n					classToFind = 'rsMainSlideImage';\n				}\n			}\n			if(!img.hasClass(classToFind)) {\n				isRoot = false;\n				img = img.find('.'+classToFind);\n			}\n			if(!img) {\n				return;\n			}\n\n			var baseImageWidth = slideObject.iW,\n				baseImageHeight = slideObject.iH;\n\n			slideObject.isRendered = true;\n			if(imgScaleMode === 'none' && !imgAlignCenter) {\n				return;\n			}\n			if(imgScaleMode !== 'fill') {\n				bMargin = self._imagePadding;\n			} else {\n				bMargin = 0;\n			}\n			//var block = img.parent('.block-inside').css('margin', bMargin);\n			var containerWidth = self._wrapWidth - bMargin * 2,\n				containerHeight = self._wrapHeight - bMargin * 2,\n				hRatio,\n				vRatio,\n				ratio,\n				nWidth,\n				nHeight,\n				cssObj = {};\n\n			if(imgScaleMode === 'fit-if-smaller') {\n				if(baseImageWidth > containerWidth || baseImageHeight > containerHeight) {\n					imgScaleMode = 'fit';\n				}\n			}\n			if(imgScaleMode === 'fill' || imgScaleMode === 'fit') {		\n				hRatio = containerWidth / baseImageWidth;\n				vRatio = containerHeight / baseImageHeight;\n\n				if (imgScaleMode  == \"fill\") {\n					ratio = hRatio > vRatio ? hRatio : vRatio;\n				} else if (imgScaleMode  == \"fit\") {\n					ratio = hRatio < vRatio ? hRatio : vRatio;\n				} else {\n					ratio = 1;\n				}\n\n				nWidth = Math.ceil(baseImageWidth * ratio, 10);\n				nHeight = Math.ceil(baseImageHeight * ratio, 10);\n			} else {								\n				nWidth = baseImageWidth;\n				nHeight = baseImageHeight;		\n			}\n			if(imgScaleMode !== 'none') {\n				cssObj.width = nWidth;\n				cssObj.height = nHeight;\n				if(isVideo) {\n					img.find('.rsImg').css({width: '100%', height:'100%'});\n				}\n			}\n			if (imgAlignCenter) {     \n				cssObj.marginLeft = Math.floor((containerWidth - nWidth) / 2) +  bMargin;\n				cssObj.marginTop = Math.floor((containerHeight - nHeight) / 2) +  bMargin;\n			}\n			img.css(cssObj);\n		}\n	}; /* RoyalSlider core prototype end */\n	$.rsProto = RoyalSlider.prototype;\n\n	$.fn.royalSlider = function(options) {\n		var args = arguments;\n		return this.each(function(){\n			var self = $(this);\n			if (typeof options === \"object\" ||  !options) {\n				if( !self.data('royalSlider') ) {\n					self.data('royalSlider', new RoyalSlider(self, options));\n				}\n			} else {\n				var royalSlider = self.data('royalSlider');\n				if (royalSlider && royalSlider[options]) {\n					return royalSlider[options].apply(royalSlider, Array.prototype.slice.call(args, 1));\n				}\n			}\n		});\n	};\n\n	$.fn.royalSlider.defaults = {    \n		slidesSpacing: 8,\n		startSlideId: 0,\n		loop: false,\n		loopRewind: false,\n		numImagesToPreload: 4,\n		fadeinLoadedSlide: true,\n		slidesOrientation: 'horizontal',\n		transitionType: 'move', \n		transitionSpeed: 600,\n		controlNavigation: 'bullets',\n		controlsInside: true, \n		arrowsNav: true,\n		arrowsNavAutoHide: true,\n		navigateByClick: true,\n		randomizeSlides: false,\n		sliderDrag: true, \n		sliderTouch: true,\n		keyboardNavEnabled: false,\n		fadeInAfterLoaded: true,\n\n		allowCSS3: true,\n		allowCSS3OnWebkit: true,\n\n		\n		addActiveClass: false,\n		autoHeight: false,\n\n		easeOut: 'easeOutSine',\n		easeInOut: 'easeInOutSine',\n\n		minSlideOffset: 10,\n\n		imageScaleMode:\"fit-if-smaller\",\n		imageAlignCenter:true,\n		imageScalePadding: 4,\n		usePreloader: true,\n\n		autoScaleSlider: false,\n\n		autoScaleSliderWidth: 800,\n		autoScaleSliderHeight: 400,\n\n		autoScaleHeight: true,\n\n		arrowsNavHideOnTouch: false,\n		globalCaption: false,\n\n		slidesDiff: 2\n	}; /* default options end */\n\n	$.rsCSS3Easing = {\n		easeOutSine: 'cubic-bezier(0.390, 0.575, 0.565, 1.000)',\n		easeInOutSine: 'cubic-bezier(0.445, 0.050, 0.550, 0.950)'\n	};\n\n	$.extend(jQuery.easing, {\n		easeInOutSine: function (x, t, b, c, d) {\n			return -c/2 * (Math.cos(Math.PI*t/d) - 1) + b;\n		},\n		easeOutSine: function (x, t, b, c, d) {\n			return c * Math.sin(t/d * (Math.PI/2)) + b;\n		},\n		easeOutCubic: function (x, t, b, c, d) {\n			return c*((t=t/d-1)*t*t + 1) + b;\n		}\n	});\n\n\n})(jQuery, window);",
+			"file": "/Users/diiiimaaaa/Downloads/new-rs-9.4.93 - UPDATED/royalslider/dev/jquery.royalslider.js",
+			"file_size": 58341,
+			"file_write_time": 1366573699000000,
+			"settings":
+			{
+				"buffer_size": 58341,
+				"line_ending": "Unix",
+				"scratch": true
+			}
+		},
+		{
+			"contents": "",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix",
+				"name": "Package Control Messages",
+				"scratch": true
+			}
+		},
+		{
+			"contents": "",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix",
+				"name": "Package Control Messages",
+				"scratch": true
+			}
+		},
+		{
+			"file": "website/index.html",
+			"settings":
+			{
+				"buffer_size": 6986,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Packages/User/Chrome.sublime-build",
+	"command_palette":
+	{
+		"height": 50.0,
+		"selected_items":
+		[
+			[
+				"disabl",
+				"Package Control: Disable Package"
+			],
+			[
+				"packpa",
+				"Package Control: Disable Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: Remove Package"
+			],
+			[
+				"brows",
+				"Preferences: Browse Packages"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"mark",
+				"Set Syntax: Markdown"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"git ",
+				"Git: Fetch"
+			],
+			[
+				"git",
+				"Git: Fetch"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"jquer",
+				"Snippet: Google AJAX Libraries: jQuery"
+			],
+			[
+				"loop",
+				"Snippet: The Loop"
+			],
+			[
+				"create ",
+				"Quick File Creator: Create file"
+			],
+			[
+				"proje",
+				"Project: Add Folder"
+			],
+			[
+				"crea",
+				"Quick File Creator: Create directory"
+			],
+			[
+				"create",
+				"Quick File Creator: Create file"
+			],
+			[
+				"new ",
+				"Snippet: <video> with legacy object"
+			],
+			[
+				"pac",
+				"Package Control: List Packages"
+			],
+			[
+				"package control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"Pack",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: Ins",
+				"Package Control: Install Package"
+			],
+			[
+				"snippet class",
+				"Snippet: Class"
+			]
+		],
+		"width": 579.0
+	},
+	"console":
+	{
+		"height": 150.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/diiiimaaaa/projects/Magnific-Popup/website/documentation.md",
+		"/Users/diiiimaaaa/projects/Magnific-Popup/website/index.html",
+		"/Users/diiiimaaaa/projects/Magnific-Popup/README.md",
+		"/Users/diiiimaaaa/projects/Magnific-Popup/src/css/main.scss",
+		"/Users/diiiimaaaa/Desktop/index.html",
+		"/Users/diiiimaaaa/projects/Magnific-Popup/website/_includes/examples.html",
+		"/Users/diiiimaaaa/projects/Magnific-Popup/website/_layouts/default.html",
+		"/Users/diiiimaaaa/projects/Magnific-Popup/src/js/touch/_touchgallery.js",
+		"/Users/diiiimaaaa/projects/Magnific-Popup/src/js/touchgallery.js",
+		"/Users/diiiimaaaa/projects/Magnific-Popup/src/js/image.js",
+		"/Users/diiiimaaaa/Desktop/zoomtest.html",
+		"/Users/diiiimaaaa/projects/Magnific-Popup/website/test.html",
+		"/Users/diiiimaaaa/projects/Magnific-Popup/dist/jquery.magnific-popup.js",
+		"/Users/diiiimaaaa/projects/Magnific-Popup/libs/jquery/jquery.js",
+		"/Users/diiiimaaaa/projects/Magnific-Popup/src/js/touch/touchgallery.js",
+		"/Users/diiiimaaaa/projects/Magnific-Popup/src/js/_touchgallery.js",
+		"/Users/diiiimaaaa/projects/Magnific-Popup/website/site-assets/site.css",
+		"/Users/diiiimaaaa/projects/Magnific-Popup/Gruntfile.js",
+		"/Users/diiiimaaaa/projects/Magnific-Popup/src/js/core.js",
+		"/Users/diiiimaaaa/projects/Magnific-Popup/bower.json",
+		"/Users/diiiimaaaa/projects/Magnific-Popup/magnific-popup.jquery.json",
+		"/Users/diiiimaaaa/projects/Magnific-Popup/node_modules/grunt-contrib-qunit/node_modules/grunt-lib-phantomjs/node_modules/phantomjs/lib/phantom/bin/phantomjs",
+		"/Users/diiiimaaaa/projects/Magnific-Popup/website/site-assets/select.js",
+		"/Users/diiiimaaaa/projects/Magnific-Popup/src/js/ajax.js",
+		"/Users/diiiimaaaa/projects/Magnific-Popup/.travis.yml",
+		"/Users/diiiimaaaa/projects/Magnific-Popup/_production/documentation.html",
+		"/Users/diiiimaaaa/Desktop/rs/royalslider/js/jquery.royalslider.js",
+		"/Users/diiiimaaaa/projects/Magnific-Popup/src/js/html5DialogPolyfill.js",
+		"/Users/diiiimaaaa/projects/Magnific-Popup/src/js/zoom.js",
+		"/Users/diiiimaaaa/projects/Magnific-Popup/src/js/touch-gallery.js",
+		"/Users/diiiimaaaa/Documents/webserver/TouchCarousels/TouchCarousel 1.2.3/touchcarousel/jquery.touchcarousel-1.2.js",
+		"/Users/diiiimaaaa/projects/Magnific-Popup/website/_config.yml",
+		"/Users/diiiimaaaa/projects/Magnific-Popup/_site/index.html",
+		"/Users/diiiimaaaa/projects/Magnific-Popup/package.json",
+		"/Users/diiiimaaaa/projects/Magnific-Popup/_production/dist/jquery.magnific-popup.js",
+		"/Users/diiiimaaaa/projects/Magnific-Popup/_site/dist/jquery.magnific-popup.js",
+		"/Users/diiiimaaaa/projects/Magnific-Popup/_production/dist/jquery.magnific-popup.min.js",
+		"/Users/diiiimaaaa/projects/Magnific-Popup/website/_includes/signup.html",
+		"/Users/diiiimaaaa/projects/Magnific-Popup/src/css/_settings.scss",
+		"/Users/diiiimaaaa/projects/Magnific-Popup/__article_MOVED_TO_IA/good-enough-for-web.md",
+		"/Users/diiiimaaaa/Downloads/functions (1).php",
+		"/Users/diiiimaaaa/projects/Magnific-Popup/src/js/gallery.js",
+		"/Users/diiiimaaaa/projects/Magnific-Popup/__article/good-enough-for-web.md",
+		"/Users/diiiimaaaa/projects/Magnific-Popup/website/_includes/build-tool.html",
+		"/Users/diiiimaaaa/projects/Magnific-Popup/src/js/imagezoom.js",
+		"/Users/diiiimaaaa/projects/Magnific-Popup/src/js/retina.js",
+		"/Users/diiiimaaaa/projects/Magnific-Popup/__article/stop_doing_that.md",
+		"/Users/diiiimaaaa/projects/Magnific-Popup/src/js/imagepreload.js",
+		"/Users/diiiimaaaa/projects/Magnific-Popup/src/js/image_enlarge.js",
+		"/Users/diiiimaaaa/projects/Magnific-Popup/src/js/iframe.js",
+		"/Users/diiiimaaaa/projects/Magnific-Popup/src/js/inline.js",
+		"/Users/diiiimaaaa/projects/Magnific-Popup/_production/index.html",
+		"/Users/diiiimaaaa/projects/Magnific-Popup/.gitignore",
+		"/Users/diiiimaaaa/projects/Magnific-Popup/component.json",
+		"/Users/diiiimaaaa/projects/Magnific-Popup/website/third-party-libs/bootstrap.js",
+		"/Users/diiiimaaaa/projects/Magnific-Popup/website/third-party-libs/boostrap.js",
+		"/Users/diiiimaaaa/projects/Magnific-Popup/website/_includes/logo.html",
+		"/Users/diiiimaaaa/projects/Magnific-Popup/src/js/fastclick.js",
+		"/Users/diiiimaaaa/projects/Magnific-Popup/CHANGELOG.md",
+		"/Users/diiiimaaaa/projects/Magnific-Popup/website/wordpress.html",
+		"/Users/diiiimaaaa/projects/Magnific-Popup/website/site-assets/ajax/test-ajax-2.html",
+		"/Users/diiiimaaaa/projects/Magnific-Popup/_production/wordpress.html",
+		"/Users/diiiimaaaa/projects/Magnific-Popup/website/wordpress.md",
+		"/Users/diiiimaaaa/projects/Magnific-Popup/__article/_backup_25_apr.html",
+		"/Users/diiiimaaaa/projects/Magnific-Popup/website/dist/jquery.magnific-popup.js",
+		"/Users/diiiimaaaa/projects/Magnific-Popup/website/dist/jquery.magnific-popup.min.js",
+		"/Users/diiiimaaaa/projects/Magnific-Popup/dist/jquery.magnific-popup.min.js",
+		"/Users/diiiimaaaa/projects/Magnific-Popup/__article/do-we-really-need-one-column.md",
+		"/Users/diiiimaaaa/projects/Magnific-Popup/website/_includes/analytics.html",
+		"/Users/diiiimaaaa/projects/Magnific-Popup/website/third-party-libs/zepto.min.js",
+		"/Users/diiiimaaaa/projects/Magnific-Popup/website/third-party-libs/zepto.js",
+		"/Users/diiiimaaaa/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/diiiimaaaa/projects/Magnific-Popup/website/site-assets/test-ajax.html",
+		"/Users/diiiimaaaa/projects/Magnific-Popup/__article/spam-and-emails.md",
+		"/Users/diiiimaaaa/projects/Magnific-Popup/_site/dist/jquery.magnific-popup.min.js",
+		"/Users/diiiimaaaa/projects/Magnific-Popup/__article/you-should-follow-me.md",
+		"/Users/diiiimaaaa/projects/Magnific-Popup/website/site-assets/test-ajax-2.html",
+		"/Users/diiiimaaaa/projects/Magnific-Popup/dist/magnific-popup.css",
+		"/Users/diiiimaaaa/projects/Magnific-Popup/__article/article.html",
+		"/Users/diiiimaaaa/projects/Magnific-Popup/__article/article.md",
+		"/Users/diiiimaaaa/projects/Magnific-Popup/__article/stop-uppercasing-titles.md",
+		"/Users/diiiimaaaa/projects/Magnific-Popup/__article/_backup_29_12:00.html",
+		"/Users/diiiimaaaa/projects/Magnific-Popup/__article/_backup_29_12:00.md",
+		"/Users/diiiimaaaa/projects/Magnific-Popup/website/site-assets/site.js",
+		"/Users/diiiimaaaa/projects/Magnific-Popup/__article/stop-blocking-right-click.md",
+		"/Users/diiiimaaaa/projects/Magnific-Popup/website/third-party-libs/jquery.js",
+		"/Users/diiiimaaaa/projects/Magnific-Popup/__article/dont-use-animation-unless-you-really-need-it.md",
+		"/Users/diiiimaaaa/projects/Magnific-Popup/stop-blocking-right-click.md",
+		"/Users/diiiimaaaa/projects/Magnific-Popup/_site/dist/magnific-popup.css",
+		"/Users/diiiimaaaa/projects/Magnific-Popup/website/site-assets/img/p1/1.jpg",
+		"/Users/diiiimaaaa/projects/Magnific-Popup/__article/.gitignore",
+		"/Users/diiiimaaaa/projects/Magnific-Popup/__article/_old1_article.md",
+		"/Users/diiiimaaaa/Documents/webserver/magnific-popup/_production/site-assets/img/l.svg",
+		"/Users/diiiimaaaa/Documents/webserver/magnific-popup/website/site-assets/img/l.svg",
+		"/Users/diiiimaaaa/Documents/webserver/magnific-popup/website/index.html",
+		"/Users/diiiimaaaa/Documents/webserver/magnific-popup/website/_includes/logo.html",
+		"/Users/diiiimaaaa/Documents/webserver/magnific-popup/.gitignore",
+		"/Users/diiiimaaaa/Documents/webserver/magnific-popup/website/_includes/examples.html",
+		"/Users/diiiimaaaa/Documents/webserver/magnific-popup/README.md",
+		"/Users/diiiimaaaa/Documents/webserver/magnific-popup/package.json",
+		"/Users/diiiimaaaa/Documents/webserver/magnific-popup/Gruntfile.js",
+		"/Users/diiiimaaaa/Documents/webserver/testplugin2/Gruntfile.js",
+		"/Users/diiiimaaaa/Documents/webserver/magnific-popup/src/js/gallery.js",
+		"/Users/diiiimaaaa/Documents/webserver/magnific-popup/src/js/iframe.js",
+		"/Users/diiiimaaaa/Documents/webserver/magnific-popup/src/js/ajax.js",
+		"/Users/diiiimaaaa/Documents/webserver/magnific-popup/src/css/main.scss",
+		"/Users/diiiimaaaa/Documents/webserver/magnific-popup/website/site-assets/site.css",
+		"/Users/diiiimaaaa/Documents/webserver/magnific-popup/src/js/image.js",
+		"/Users/diiiimaaaa/Documents/webserver/magnific-popup/website/documentation.md",
+		"/Users/diiiimaaaa/Documents/webserver/magnific-popup/_site/site-assets/site.css",
+		"/Users/diiiimaaaa/Documents/webserver/magnific-popup/website/_layouts/default.html",
+		"/Users/diiiimaaaa/Documents/webserver/magnific-popup/website/_includes/build-tool.html",
+		"/Users/diiiimaaaa/Documents/webserver/magnific-popup/src/js/inline.js",
+		"/Users/diiiimaaaa/Documents/webserver/magnific-popup/website/_includes/analytics.html",
+		"/Users/diiiimaaaa/Documents/webserver/magnific-popup/src/js/core.js",
+		"/Users/diiiimaaaa/Documents/webserver/magnific-popup/website/dist/jquery.magnific-popup.js",
+		"/Users/diiiimaaaa/Documents/webserver/magnific-popup/website/third-party-libs/jquery.js",
+		"/Users/diiiimaaaa/Documents/webserver/magnific-popup/website/_config.yml",
+		"/Users/diiiimaaaa/Documents/webserver/magnific-popup/website/_production_config.yml",
+		"/Users/diiiimaaaa/Documents/webserver/magnific-popup/_site/dist/jquery.magnific-popup.js",
+		"/Users/diiiimaaaa/Documents/webserver/magnific-popup/site-assets/site.css",
+		"/Users/diiiimaaaa/Documents/webserver/magnific-popup/magnific-popup/src/js/core.js",
+		"/Users/diiiimaaaa/Documents/webserver/magnific-popup/magnific-popup/dist/jquery.magnific-popup.js",
+		"/Users/diiiimaaaa/Documents/webserver/magnific-popup/_layouts/default.html",
+		"/Users/diiiimaaaa/Documents/webserver/magnific-popup/_includes/build-tool.html",
+		"/Users/diiiimaaaa/Documents/webserver/magnific-popup/index.html",
+		"/Users/diiiimaaaa/Documents/webserver/magnific-popup/magnific-popup/Gruntfile.js",
+		"/Users/diiiimaaaa/Documents/webserver/magnific-popup/_config.yml"
+	],
+	"find":
+	{
+		"height": 273.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"/Users/diiiimaaaa/projects/Magnific-Popup/src/js",
+			"/Users/diiiimaaaa/projects/Magnific-Popup",
+			"/Users/diiiimaaaa/projects/Magnific-Popup/src/js",
+			"",
+			"/Users/diiiimaaaa/projects/Magnific-Popup",
+			"",
+			"/Users/diiiimaaaa/projects/Magnific-Popup",
+			"/Users/diiiimaaaa/projects/Magnific-Popup/src/js",
+			"/Users/diiiimaaaa/projects/Magnific-Popup/src/js/imagepreload.js",
+			"/Users/diiiimaaaa/projects/Magnific-Popup/src/js",
+			"/Users/diiiimaaaa/projects/Magnific-Popup",
+			"/Users/diiiimaaaa/projects/Magnific-Popup/src/js",
+			"/Users/diiiimaaaa/projects/Magnific-Popup/src",
+			"/Users/diiiimaaaa/projects/Magnific-Popup",
+			"/Users/diiiimaaaa/projects/Magnific-Popup/src",
+			"/Users/diiiimaaaa/projects/Magnific-Popup/src/js",
+			"/Users/diiiimaaaa/projects/Magnific-Popup/website",
+			"/Users/diiiimaaaa/projects/Magnific-Popup/src",
+			"/Users/diiiimaaaa/projects/Magnific-Popup/src/js",
+			"/Users/diiiimaaaa/projects/Magnific-Popup/",
+			"/Users/diiiimaaaa/projects/Magnific-Popup/src",
+			"/Users/diiiimaaaa/projects/Magnific-Popup/",
+			"/Users/diiiimaaaa/projects/Magnific-Popup/src/js",
+			"/Users/diiiimaaaa/projects/Magnific-Popup/src",
+			"/Users/diiiimaaaa/projects/Magnific-Popup/src/js",
+			"/Users/diiiimaaaa/Documents/webserver/magnific-popup/src",
+			"/Users/diiiimaaaa/Documents/webserver/magnific-popup/website",
+			"/Users/diiiimaaaa/Documents/webserver/magnific-popup/magnific-popup",
+			"/Users/diiiimaaaa/Documents/webserver/magnific-popup",
+			"/Users/diiiimaaaa/Documents/webserver/magnific-popup/magnific-popup",
+			"/Users/diiiimaaaa/Documents/webserver/magnific-popup/_site/magnific-popup",
+			"/Users/diiiimaaaa/Documents/webserver/magnific-popup/magnific-popup",
+			"/Users/diiiimaaaa/Documents/webserver/magnific-popup/magnific-popup/modules",
+			"/Users/diiiimaaaa/Documents/webserver/wp35",
+			"/Users/diiiimaaaa/Documents/webserver/wp35/wp-content/plugins",
+			"/Users/diiiimaaaa/Documents/webserver/wp35/wp-content/plugins/new-royalslider",
+			"/Users/diiiimaaaa/Documents/webserver/wp35/wp-content/plugins/gravityforms",
+			"/Users/diiiimaaaa/Documents/webserver/wp35",
+			"/Users/diiiimaaaa/Documents/webserver/wp35/wp-content/plugins/new-royalslider/lib/backend",
+			"/Users/diiiimaaaa/Documents/webserver/wp35/wp-content/plugins/new-royalslider/classes",
+			"/Users/diiiimaaaa/Documents/webserver/wp35/wp-content/plugins/new-royalslider",
+			"/Users/diiiimaaaa/Documents/webserver/wp35",
+			"/Users/diiiimaaaa/Documents/webserver/wp35/wp-content/plugins/new-royalslider",
+			"/Users/diiiimaaaa/Documents/webserver/new-royalslider-wp/wp-content/plugins/slidedeck2-pro",
+			"/Users/diiiimaaaa/Documents/webserver/new-royalslider-wp/wp-content/plugins/gravityforms",
+			"/Users/diiiimaaaa/Documents/webserver/wp35/wp-content/plugins/new-royalslider",
+			"/Users/diiiimaaaa/Documents/webserver/wp35/wp-content/plugins/new-royalslider/lib/backend",
+			"/Users/diiiimaaaa/Documents/webserver/new-royalslider-wp/wp-content/plugins/slidedeck2-pro",
+			"/Users/diiiimaaaa/Documents/webserver/wp35/wp-content/plugins/new-royalslider",
+			"/Users/diiiimaaaa/Documents/webserver/new-royalslider-wp/wp-content/plugins",
+			"/Users/diiiimaaaa/Documents/webserver/wp35",
+			"/Users/diiiimaaaa/Documents/webserver/wp35/wp-content/plugins/new-royalslider",
+			"/Users/diiiimaaaa/Sites/new-royalslider/_private",
+			"/Users/diiiimaaaa/Sites/new-royalslider/royalslider/dev",
+			"<project>",
+			"/Users/diiiimaaaa/Sites/new-royalslider/_private",
+			"/Users/diiiimaaaa/Sites/new-royalslider/royalslider/_private",
+			"/Users/diiiimaaaa/Sites/new-royalslider/royalslider",
+			"/Users/diiiimaaaa/Sites/new-royalslider/_private",
+			"/Users/diiiimaaaa/Sites/new-royalslider/",
+			"/Users/diiiimaaaa/Sites/new-royalslider/_private/",
+			"/Users/diiiimaaaa/Sites/new-royalslider/",
+			"/Users/diiiimaaaa/Sites/new-royalslider/_private",
+			"/Users/diiiimaaaa/Sites/new-royalslider/private",
+			"/Users/diiiimaaaa/Sites/new-royalslider",
+			"/Users/diiiimaaaa/Sites/new-royalslider/royalslider",
+			"/Users/diiiimaaaa/Sites/new-royalslider",
+			"/Users/diiiimaaaa/Sites/dev.phototheme.com/site/wp-content/themes/touchfolio/",
+			"/Users/diiiimaaaa/Sites/dev.phototheme.com/site/wp-content/plugins/",
+			"/Users/diiiimaaaa/Sites/dev.phototheme.com/site/wp-content/",
+			"/Users/diiiimaaaa/Sites/dev.phototheme.com/site/wp-content/themes/touchfolio",
+			"/Users/diiiimaaaa/Sites/dev.phototheme.com/site/wp-content/themes/photo-theme",
+			"/Users/diiiimaaaa/Sites/dev.wptest.com/wp-content/themes/canvas",
+			"/Users/diiiimaaaa/Sites/dev.phototheme.com/site/wp-content/themes/photo-theme",
+			"/Users/diiiimaaaa/Sites/dev.phototheme.com/site",
+			"/Users/diiiimaaaa/Sites/dev.phototheme.com/site/wp-content/themes/photo-theme/inc/plugins/wp-less",
+			"/Users/diiiimaaaa/Sites/dev.phototheme.com/site/wp-content/themes/photo-theme/admin",
+			"/Users/diiiimaaaa/Sites/dev.phototheme.com/site/wp-content/themes/photo-theme",
+			"/Users/diiiimaaaa/Sites/dev.phototheme.com/site/wp-content/themes/photo-theme/admin/js",
+			"/Users/diiiimaaaa/Sites/dev.phototheme.com/site/wp-content/themes/photo-theme",
+			"/Users/diiiimaaaa/Sites/dev.phototheme.com/site/wp-content/themes/photo-theme/admin",
+			"/Users/diiiimaaaa/Sites/dev.phototheme.com/site/wp-content/themes/photo-theme",
+			"/Users/diiiimaaaa/Sites/dev.tester.com/wp-content/themes/angular",
+			"/Users/diiiimaaaa/Sites/dev.wptest.com/wp-content/themes/canvas",
+			"/Users/diiiimaaaa/Sites/dev.phototheme.com/site/wp-content/themes/photo-theme",
+			"/Users/diiiimaaaa/Sites/dev.tester.com/wp-content/themes/angular",
+			"/Users/diiiimaaaa/Sites/dev.tester.com/wp-content/themes/modernize",
+			"/Users/diiiimaaaa/Sites/dev.phototheme.com",
+			"/Users/diiiimaaaa/Sites/dev.tester.com/wp-content/themes/angular",
+			"/Users/diiiimaaaa/Sites/dev.tester.com/wp-content/themes/modernize",
+			"/Users/diiiimaaaa/Sites/dev.phototheme.com/site/wp-content/themes/photo-theme",
+			"/Users/diiiimaaaa/Sites/dev.phototheme.com/site/wp-content/themes",
+			"/Users/diiiimaaaa/Sites/dev.phototheme.com/site",
+			"/Users/diiiimaaaa/Sites/dev.phototheme.com/site/wp-content/themes/photo-theme",
+			"/Users/diiiimaaaa/Sites/dev.phototheme.com",
+			"/Users/diiiimaaaa/Sites/dev.tester.com/wp-content/themes/modernize",
+			"/Users/diiiimaaaa/Sites/dev.tester.com/wp-content/themes/angular",
+			"/Users/diiiimaaaa/Sites/dev.tester.com/wp-content/themes/modernize",
+			"/Users/diiiimaaaa/Sites/dev.phototheme.com/site/wp-content/themes/photo-theme",
+			"/Users/diiiimaaaa/Sites/dev.tester.com/wp-content/themes/angular",
+			"/Users/diiiimaaaa/Sites/dev.tester.com/wp-content/themes/modernize",
+			"/Users/diiiimaaaa/Sites/dev.tester.com/wp-content/themes/angular",
+			"/Users/diiiimaaaa/Sites/dev.tester.com/wp-content/themes/modernize",
+			"/Users/diiiimaaaa/Sites/dev.phototheme.com/site/wp-content/themes/photo-theme",
+			"/Users/diiiimaaaa/Sites/dev.phototheme.com/site/wp-content/themes/photo-theme/inc",
+			"/Users/diiiimaaaa/Sites/dev.phototheme.com/site/wp-content/themes/photo-theme",
+			"/Users/diiiimaaaa/Sites/dev.phototheme.com/site/wp-content/themes/photo-theme/inc",
+			"",
+			"canvas",
+			"",
+			"/Users/diiiimaaaa/Sites/dev.rawzone.com/wordpress/wp-content/plugins/disqus-comment-system",
+			"/Users/diiiimaaaa/Sites/dev.rawzone.com/wordpress/wp-content/themes/rawzone",
+			"/Users/diiiimaaaa/Sites/dev.rawzone.com/wordpress/wp-content/plugins/events-manager",
+			"/Users/diiiimaaaa/Sites/dev.rawzone.com/wordpress/wp-content/themes/rawzone",
+			"/Users/diiiimaaaa/Sites/dev.rawzone.com/wordpress/wp-content/plugins/events-manager",
+			"/Users/diiiimaaaa/Sites/dev.rawzone.com/wordpress/wp-content/themes/rawzone",
+			"",
+			"/Users/diiiimaaaa/Sites/dev.i-mne.com/prestashop/imne-admin-secure/themes/ds-admin",
+			"/Users/diiiimaaaa/Sites/dev.i-mne.com/prestashop",
+			"/Users/diiiimaaaa/Sites/dev.i-mne.com/prestashop/imne-admin-secure/themes/flashyturtle"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"mfp.ev",
+			"NS =",
+			"NS + e",
+			"_mfpTrigger",
+			"trigger",
+			"/",
+			"updatestatus",
+			"_checkifclose",
+			"BEFORE_APPEND_EVENT",
+			"get",
+			".type =",
+			".type",
+			"type",
+			"currtemplate",
+			"cache",
+			"console",
+			"prependto",
+			"_body",
+			"prependTo",
+			"document.body",
+			"startzoomLevel",
+			"calculatePanOffset",
+			"zoomTo",
+			"doubletap",
+			"dragrelease",
+			"top_bar",
+			"bottom-bar",
+			"button",
+			"updateCurrItem",
+			"goTo",
+			"movemainscroll",
+			"< 0",
+			"=== 0",
+			"getitemat",
+			"setitemhtml",
+			"updatecu",
+			"itemIndex",
+			"movemainscroll",
+			"updatesize",
+			"moveMainScroll",
+			"consol",
+			"pointerpos",
+			"lastZoomPoints",
+			"console.log",
+			"pointerpos",
+			"_getTouchPoints",
+			"converttouchtopoint",
+			"pageX",
+			"onDragRelease",
+			"pageY",
+			"onDragRelease",
+			"mouseup",
+			"console.",
+			"currzoomelement",
+			"panbounds",
+			"[1]",
+			"currzoomelement",
+			".children",
+			"currzoomelement ",
+			"calculatePanbounds",
+			"calculatePanBounds",
+			"innerPanBounds",
+			"nOffset[axis] >= innerPanBounds.min[ax",
+			"console.l",
+			"var",
+			"converttouch",
+			"converttouchtopoint",
+			"identifier",
+			"convertTouchToPoint",
+			"pointerpos",
+			"mainscrollpos",
+			"moveMainScroll",
+			"rendermovement",
+			"innerPanBounds",
+			"gettouchpoints(",
+			"e.touches",
+			"touches",
+			"gettouchpoint",
+			"mouseEvents",
+			"dragStartEvent",
+			"startDragEvent",
+			"self.tCancel",
+			"self.tEnd",
+			"self.tMove",
+			"self.tStart",
+			"tMove",
+			"tStart",
+			"webkit",
+			"prefix",
+			"updateItems",
+			"script",
+			"_checkif",
+			"hidden",
+			"hide",
+			"mfp-tg_controls",
+			"controls",
+			"managee",
+			"manageevent",
+			"showControls",
+			"hidecontrol",
+			"getContainer",
+			"hideControls",
+			"controlsVisible",
+			"_bar",
+			"top_bar",
+			"midZoomPoint",
+			"currPanDist",
+			"startpanoffset",
+			"calculatePanOffset",
+			"midzoomPoint",
+			"centerPoint",
+			"currPanDist",
+			"calculatePanOffset",
+			"midZoomPoint",
+			"calculatePanOffset",
+			"0.5",
+			"currCenterPoint",
+			"currCenterPoint\ncurrCenterPoint",
+			"speedDecelerationRatioAbs",
+			"updatecurritem",
+			"calculatePanBounds",
+			"moveMainScroll",
+			"setTranslateX",
+			"settranslatex",
+			"movemainscroll",
+			"mainScrollpos",
+			"applyZoomPanStyle",
+			"applyTranslateX"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": true,
+		"regex": false,
+		"replace_history":
+		[
+			",",
+			"",
+			"'",
+			"'click'",
+			"_mfpTrigger",
+			"_getEl",
+			"_mfpOn",
+			"dragSuccess",
+			"	height: auto;\n	margin: 0 auto;\n	text-align:center;\n	overflow: hidden; padding-top: 12px; position: relative;\n}",
+			"    -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2) inset;\n	box-shadow:  0 1px 4px rgba(0, 0, 0, 0.2) inset;",
+			"	color: white;\n	border: 1px solid #999;\n	text-shadow: 1px 1px #838383;\n	-webkit-box-shadow: 0 1px 9px rgba(102, 102, 102, 0.65) inset;\n	box-shadow: 0 1px 9px rgba(102, 102, 102, 0.65) inset;\n	background: #ACACAC;\n	background-image: -webkit-linear-gradient(top, #ACACAC, #BBB);\n	background-image: -moz-llinear-gradient(top, #ACACAC, #BBB);\n	background-image: linear-gradient(to bottom, #ACACAC, #BBB);",
+			"'",
+			",",
+			"    ",
+			"verDirection",
+			"horDirection",
+			"changedY",
+			"changedX",
+			"'",
+			"dsframework",
+			"dsframework_",
+			"'dsframework'",
+			"dsframework",
+			"dsframework_",
+			"dsframework",
+			"ds-framework",
+			"_distToSnap",
+			"_accelerationPos",
+			"_currentMainBlockId",
+			"_centerBlockId",
+			"dfdfd1",
+			"#333"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "src/js/core.js",
+					"settings":
+					{
+						"buffer_size": 21433,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5678,
+								5688
+							]
+						],
+						"settings":
+						{
+							"encoding_helper_confidence": 1.0,
+							"encoding_helper_encoding": "UTF-8",
+							"encoding_helper_encoding_sublime": "UTF-8",
+							"incomplete_sync": null,
+							"origin_encoding": "ASCII",
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2937.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+							"match":
+							{
+								"flags": 112,
+								"regions":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"scope": ""
+							}
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"detect_indentation": false,
+							"encoding_helper_encoding_sublime": "UTF-8",
+							"incomplete_sync": null,
+							"output_tag": 1,
+							"result_base_dir": "",
+							"result_file_regex": "^([A-Za-z\\\\/<].*):$",
+							"result_line_regex": "^ +([0-9]+):",
+							"scroll_past_end": true,
+							"syntax": "Packages/Default/Find Results.hidden-tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/Users/diiiimaaaa/Downloads/new-rs-9.4.93 - UPDATED/royalslider/dev/jquery.royalslider.js",
+					"settings":
+					{
+						"buffer_size": 58341,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"encoding_helper_confidence": 0.99,
+							"encoding_helper_encoding": "TIS-620",
+							"encoding_helper_encoding_sublime": "UTF-8",
+							"in_converting": true,
+							"incomplete_sync": null,
+							"is_preview": true,
+							"origin_encoding": "TIS-620",
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"encoding_helper_encoding_sublime": "UTF-8",
+							"incomplete_sync": null,
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"encoding_helper_encoding_sublime": "UTF-8",
+							"incomplete_sync": null,
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "website/index.html",
+					"settings":
+					{
+						"buffer_size": 6986,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1963,
+								1970
+							]
+						],
+						"settings":
+						{
+							"encoding_helper_confidence": 1.0,
+							"encoding_helper_encoding": "UTF-8",
+							"encoding_helper_encoding_sublime": "UTF-8",
+							"incomplete_sync": null,
+							"is_preview": true,
+							"origin_encoding": "ASCII",
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 145.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 30.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 98.0
+	},
+	"output.git":
+	{
+		"height": 105.0
+	},
+	"output.gjslint_result_view":
+	{
+		"height": 98.0
+	},
+	"output.sftp":
+	{
+		"height": 143.0
+	},
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"theme-options",
+				"dev.phototheme.com/site/wp-content/themes/photo-theme/admin/theme-options.php"
+			],
+			[
+				"foote",
+				"dev.phototheme.com/site/wp-content/themes/photo-theme/footer.php"
+			],
+			[
+				"artic",
+				"modules/graphartichow/graphartichow.php"
+			],
+			[
+				"fo",
+				"footer.php"
+			],
+			[
+				"head",
+				"header.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 269.0,
+	"status_bar_visible": true
+}

@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <title>ADYA CLASSIC</title>
-  <link rel="stylesheet" href="bower_components/magnific-popup/dist/magnific-popup.css">
+  <link rel="stylesheet" href="node_modules/magnific-popup/dist/magnific-popup.css">
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
@@ -52,13 +52,11 @@
 
   <script type="text/x-handlebars" data-template-name="hero">
     <section id="hero" class="container">
-      <h1>ADYA CLASSIC 3</h1>
+      <h1>ADYA CLASSIC 4</h1>
       <p>Latest critically acclaimed album from <strong>Adriaan Van Landschoot</strong>.</p>
 
       <div class="call-to-action">
         <a {{bindAttr href="amazon"}}><img src="images/amazon.png" alt="LISTEN ON AMAZON" /></a>
-        <span>OR</span>
-        <a {{bindAttr href="itunes"}}><img src="images/itunes.png" alt="LISTEN ON iTUNES" /></a>
       </div>
     </section>
   </script>
@@ -168,9 +166,6 @@
       {{#each album in sortedAlbums itemController="album"}}
         <div class="album">
           <div class="container">
-            <div class="cover">
-              <img {{bindAttr src="album.coverImage"}} />
-            </div>
             <h2>{{album.title}}</h2>
 
             {{#each trackList in album.trackLists}}
@@ -263,7 +258,7 @@
   </script>
 
   <script src="js/libs/jquery-1.9.1.js"></script>
-  <script src="bower_components/magnific-popup/dist/jquery.magnific-popup.js"></script>
+  <script src="node_modules/magnific-popup/dist/jquery.magnific-popup.js"></script>
   <script src="js/libs/moment.min.js"></script>
   <script src="js/libs/handlebars-1.0.0-rc.4.js"></script>
   <script src="js/libs/ember-1.0.0-rc.6.js"></script>

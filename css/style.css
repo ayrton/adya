@@ -7,6 +7,10 @@ html {
   width: 940px;
 }
 
+#discography .container {
+  width: 860px;
+}
+
 header {
   background: url(../images/header.png);
   height: 72px;
