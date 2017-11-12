@@ -56,7 +56,15 @@
       <p>Latest critically acclaimed album from <strong>Adriaan Van Landschoot</strong>.</p>
 
       <div class="call-to-action">
-        <a {{bindAttr href="amazon"}}><img src="images/amazon.png" alt="LISTEN ON AMAZON" /></a>
+        <a {{bindAttr href="amazon"}} target="_blank">
+          <img src="images/amazon.png" alt="LISTEN ON AMAZON" />
+        </a>
+
+        <span>OR</span>
+
+        <a {{bindAttr href="itunes"}} target="_blank">
+          <img src="images/itunes.png" alt="LISTEN ON iTUNES" />
+        </a>
       </div>
     </section>
   </script>
@@ -122,18 +130,14 @@
       <ol>
       {{#each album in model itemController="topSinglesAlbum"}}
         <li>
-          <img {{bindAttr src="album.coverImage"}} />
+          <h2>{{album.title}}</h2>
+
           <ul>
           {{#each track in album.topTracks}}
             <li>
               <a {{bindAttr href="track.itunes"}} target="_blank">
-                <div class="left">
-                  <h2>{{track.title}}</h2>
-                  <p>{{track.composer}}</p>
-                </div>
-                <div class="right">
-                  <span>0.99€</span>
-                </div>
+                <h3>{{track.title}}</h3>
+                <p>{{track.composer}}</p>
               </a>
             </li>
           {{/each}}

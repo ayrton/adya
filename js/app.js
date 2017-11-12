@@ -39,10 +39,12 @@ App.IndexRoute = Ember.Route.extend({
   },
 
   setupTopSinglesController: function() {
-    var classic_three = App.Album.find(5);
-    var classic_two = App.Album.find(2);
-    var classic_one = App.Album.find(1);
-    var albums = Ember.A([classic_three, classic_two, classic_one]);
+    var albums = Ember.A([
+      App.Album.find(6),
+      App.Album.find(5),
+      App.Album.find(2),
+      App.Album.find(1)
+    ]);
 
     this.controllerFor("topSingles").set("model", albums);
   },
@@ -431,7 +433,8 @@ App.Album.FIXTURES = [
       149,
       150
     ],
-    amazon: "https://www.amazon.de/Adya-Classic-4/dp/B0753S9W3N/"
+    amazon: "https://www.amazon.de/Adya-Classic-4/dp/B0753S9W3N/",
+    itunes: "https://itunes.apple.com/be/album/classic-4/id1272721675"
   }
 ];
 
@@ -556,7 +559,7 @@ App.Track.FIXTURES = [
     composer: "E. Abrath",
     bestseller: true,
     itunes:
-      "https://itunes.apple.com/be/album/amazing-grace-siralynth/id296390597?i=296390650"
+      "https://itunes.apple.com/be/album/amazing-grace/334633557?i=334633583"
   },
   {
     id: 26,
@@ -574,7 +577,7 @@ App.Track.FIXTURES = [
     composer: "J. Strauss - Son",
     bestseller: true,
     itunes:
-      "https://itunes.apple.com/be/album/the-emperor-muvagora/id296390597?i=296390660"
+      "https://itunes.apple.com/be/album/the-emperor/334633557?i=334633620"
   },
   {
     id: 29,
@@ -582,7 +585,7 @@ App.Track.FIXTURES = [
     composer: "A. Ponchielli",
     bestseller: true,
     itunes:
-      "https://itunes.apple.com/be/album/dance-of-the-hours-souraktoff/id296390597?i=296390664"
+      "https://itunes.apple.com/be/album/dance-of-the-hours/334633557?i=334633624"
   },
   {
     id: 30,
@@ -855,7 +858,7 @@ App.Track.FIXTURES = [
     composer: "Die Zauberflöte • Wolfgang Amadeus Mozart",
     bestseller: true,
     itunes:
-      "https://itunes.apple.com/be/album/der-vogelfanger-die-zauberflote/id653472088?i=653472157"
+      "https://itunes.apple.com/be/album/der-f%C3%B6gelf%C3%A4nger/1105663868?i=1105664367"
   },
   {
     id: 105,
@@ -878,7 +881,7 @@ App.Track.FIXTURES = [
     composer: "William Tell • Gioacchino Rossini",
     bestseller: true,
     itunes:
-      "https://itunes.apple.com/be/album/ouverture-william-tell-gioacchino/id653472088?i=653472161"
+      "https://itunes.apple.com/be/album/william-tell-ouverture/1105663868?i=1105664371"
   },
   {
     id: 109,
@@ -927,7 +930,7 @@ App.Track.FIXTURES = [
       "Stars and Stripes • John Philip de Sousa • Mein Kleiner Gardeoffizier • Robert Stolz/Walter Reisch • Einzugsmarsch (Der Zigeunerbaron Opus 327) • Johann Strauss jr. • Radetzky Marsch • Johann Strauss sr.",
     bestseller: true,
     itunes:
-      "https://itunes.apple.com/be/album/adya-medley/id653472088?i=653472171"
+      "https://itunes.apple.com/be/album/adya-medley/1105663868?i=1105664380"
   },
   {
     id: 121,
@@ -1017,13 +1020,19 @@ App.Track.FIXTURES = [
   {
     id: 137,
     title: "Take Me for a Ride - Villa Rides",
-    composer: "(Maurice-Alexis Jarre) Sony Atv Harmony"
+    composer: "(Maurice-Alexis Jarre) Sony Atv Harmony",
+    bestseller: true,
+    itunes:
+      "https://itunes.apple.com/be/album/take-me-for-a-ride-villa-rides/1272721675?i=1272721842"
   },
   {
     id: 138,
     title: "Cherubino's Aria - Djbom Mix",
     composer:
-      "Non so piu cosa son cosa faccio – From “The Marriage of Figaro” Opera (Wolfgang Amadeus Mozart – Trad. Adapt: ADYA) Mouse Music Co."
+      "Non so piu cosa son cosa faccio – From “The Marriage of Figaro” Opera (Wolfgang Amadeus Mozart – Trad. Adapt: ADYA) Mouse Music Co.",
+    bestseller: true,
+    itunes:
+      "https://itunes.apple.com/be/album/cherubinos-aria-djbommix/1272721675?i=1272721843"
   },
   {
     id: 139,
@@ -1069,7 +1078,10 @@ App.Track.FIXTURES = [
     id: 146,
     title: "Mull of Kintyre",
     composer:
-      "(Paul McCartney & Denny Laine) McCartney Music/EMI Music Publishing"
+      "(Paul McCartney & Denny Laine) McCartney Music/EMI Music Publishing",
+    bestseller: true,
+    itunes:
+      "https://itunes.apple.com/be/album/mull-of-kintyre/1272721675?i=1272721851"
   },
   {
     id: 147,

@@ -276,6 +276,7 @@ footer p {
 }
 
 #top-singles ol {
+  margin: 0;
   width: 970px;
 }
 
@@ -286,15 +287,9 @@ footer p {
   width: 445px;
 }
 
-#top-singles img {
-  float: left;
-}
-
 #top-singles ul {
-  float: right;
   margin: 0;
   padding: 0;
-  width: 280px;
 }
 
 #top-singles ul li {
@@ -303,9 +298,8 @@ footer p {
   border-color: rgba(203, 202, 197, .42);
   list-style: none;
   margin: 0 0 9px 0;
-  padding: 0 75px 0 35px;
+  padding: 0 5px 0 35px;
   position: relative;
-  width: 170px;
 }
 
 #top-singles a {
@@ -320,6 +314,12 @@ footer p {
 }
 
 #top-singles h2 {
+  color: #6d1b21;
+  font-size: 20px;
+  margin: 0 0 24px 0;
+}
+
+#top-singles h3 {
   color: #232322;
   font-size: 14px;
   margin: 0 0 3px 0;
