@@ -52,20 +52,8 @@
 
   <script type="text/x-handlebars" data-template-name="hero">
     <section id="hero" class="container">
-      <h1>ADYA CLASSIC 4</h1>
-      <p>Latest critically acclaimed album from <strong>Adriaan Van Landschoot</strong>.</p>
-
-      <div class="call-to-action">
-        <a {{bindAttr href="amazon"}} target="_blank">
-          <img src="images/amazon.png" alt="LISTEN ON AMAZON" />
-        </a>
-
-        <span>OR</span>
-
-        <a {{bindAttr href="itunes"}} target="_blank">
-          <img src="images/itunes.png" alt="LISTEN ON iTUNES" />
-        </a>
-      </div>
+      <h1>ADYA TESTAMENT</h1>
+      <p>Latest critically acclaimed single from <strong>Adriaan Van Landschoot</strong>.</p>
     </section>
   </script>
 
@@ -126,6 +114,23 @@
   <script type="text/x-handlebars" data-template-name="topSingles">
     <section id="top-singles" class="container">
       <h1>Top Singles</h1>
+
+      <ol>
+        <li>
+          <h2>Testament</h2>
+
+          <ul>
+            <li>
+              <a href="https://open.spotify.com/album/4wU4u4UR2Y14oqTmIcuZRF" target="_blank">
+                <h3>Testament</h3>
+                <p>Adriaan Van Landschoot, Adya</p>
+              </a>
+            </li>
+          </ul>
+        </li>
+      </ol>
+
+      <div style="clear: both;"></div>
 
       <ol>
       {{#each album in model itemController="topSinglesAlbum"}}

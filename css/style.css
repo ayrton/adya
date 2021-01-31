@@ -101,7 +101,8 @@ footer p {
 }
 
 #hero {
-  background: url(../images/hero.jpg);
+  background: url(../images/hero.jpg) 0 0;
+  background-size: 940px 477px;
   border-radius: 5px;
   height: 477px;
   position: relative;
@@ -112,7 +113,7 @@ footer p {
   color: #fff;
   font-size: 39px;
   margin: 0;
-  padding: 320px 0 0 0;
+  padding: 350px 0 0 0;
   text-align: center;
   text-shadow: 0px 3px 2px rgba(0, 0, 0, 0.5);
 }
